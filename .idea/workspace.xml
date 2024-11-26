@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="with delete trails view">
+      <change afterPath="$PROJECT_DIR$/.idea/HikingTrails.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/migrations/0002_hiker_is_approved.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0002_trails_difficulty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0003_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0004_alter_trails_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0005_alter_trails_difficulty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/elephant_with_balloons.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle_LRYoFgS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle_LRYoFgS_hcp7bnJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/puzzle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/trail_images/watermark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/160_0107.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/IMG-20190421-WA0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/IMG_20180517_104549.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bilo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/image-0-02-05-48b965f3a3e7f7e20d45db527a822e0cd9b15515067858d5e473c43e7f858fdd-V.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/image-0-02-05-e043d9eecd70f10990abf589066a72a4813524e3c9b5cbeebdd19c17c17f53fa-V.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lykatu6ene.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/vyjeta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hikers/hiker_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hikers/hiker_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/rest_framework/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trails/comment_trail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trails/trail_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trails/trails_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trails/trails_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/trails/trails_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tod36&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tod36/HikingTrails&quot;,
+    &quot;accountId&quot;: &quot;84cd576c-fb54-4221-9c16-31fc172ead12&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pIiPcoAvxlAgyYOIsj8rulzZHe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.HikingTrails.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\tod36\SoftUni2024\HikingTrails\media" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HikingTrails" type="Python.DjangoServer" factoryName="Django server">
+      <module name="HikingTrails" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="HikingTrails.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="" />
+      <created>1732459967967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732459967967</updated>
+      <workItem from="1732459968989" duration="3375000" />
+      <workItem from="1732546744473" duration="2116000" />
+      <workItem from="1732548879110" duration="7514000" />
+      <workItem from="1732600149717" duration="1546000" />
+      <workItem from="1732603252699" duration="407000" />
+      <workItem from="1732603696703" duration="2112000" />
+    </task>
+    <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
+      <option name="closed" value="true" />
+      <created>1732546876341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732546876341</updated>
+    </task>
+    <task id="LOCAL-00002" summary="with delete trails view">
+      <option name="closed" value="true" />
+      <created>1732560163465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732560163465</updated>
+    </task>
+    <task id="LOCAL-00003" summary="with delete trails view">
+      <option name="closed" value="true" />
+      <created>1732560254316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732560254316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="655fb991-d263-4bc4-aca3-2cb104067a74" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="655fb991-d263-4bc4-aca3-2cb104067a74">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="2511HikingTrails" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hikers Trails &amp; Comments tables" />
+    <MESSAGE value="with delete trails view" />
+    <option name="LAST_COMMIT_MESSAGE" value="with delete trails view" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/trails/trails_detail.html</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <title>Navigation Panel</title>
+    <link rel="stylesheet" href="{% static 'css/nav.css' %}">
+    <div class="nav">
+
+        <a href="{% url 'home' %}">Home with nav</a>
+        <a href="{% url 'hiker_details' pk=1 %}">Hiker Details</a>
+        <a href="{% url 'register' %}">Register</a>
+        <a href="{% url 'trails_create' %}">Create Trail</a>
+        <a href="{% url 'trail_list' %}">List Trails</a>
+
+
+    </div>
+{% endblock %}

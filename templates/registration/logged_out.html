@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/forms.css' %}">
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Logout</button>
+        <p>You will be redirect to Home page<a href="{% url 'home_with_nav' %}">Logout</a></p>
+    </form>
+{% endblock %}

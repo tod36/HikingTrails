@@ -1,0 +1,14 @@
+<!-- trails_detail.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ trail.name }}</h1>
+    <p>Location: {{ trail.location }}</p>
+    <p>Difficulty: {{ trail.get_difficulty_display }}</p>
+    <p>Description: {{ trail.description }}</p>
+    <p>Length: {{ trail.length }} km</p>
+    <p>Elevation Gain: {{ trail.elevation_gain }} m</p>
+    <img src="{{ trail.image.url }}" alt="{{ trail.name }}">
+    <a href="{% url 'trail_list' %}">Back to trails list</a>
+    <a href="{% url 'comment_trail' trail.pk %}">Comment</a>
+    <a href="{% url 'trail_delete' trail.pk %}">Delete</a>
+{% endblock %}

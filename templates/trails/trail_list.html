@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Trails List</h1>
+    <ul>
+        {% for trail in trails %}
+            <li><a href="{% url 'trails_detail' trail.pk %}">{{ trail.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

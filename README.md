@@ -1,2 +1,0 @@
-# HikingTrails
-mountain footpath 
