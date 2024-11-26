@@ -23,6 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('HikingTrails.Hikers.urls')),
     path('trails/', include('HikingTrails.Trails.urls')),
-    path('recommendations/', include('RecommendationsBook.urls')),
+    path('recommendations/', include('HikingTrails.RecommendationsBook.urls')),
 
 ]

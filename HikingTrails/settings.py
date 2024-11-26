@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'HikingTrails.Hikers.apps.HikersConfig',
     'crispy_forms',
     'HikingTrails.Trails.apps.TrailsConfig',
-    'RecommendationsBook.apps.RecommendationsbookConfig'
+    'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig'
 ]
 
 MIDDLEWARE = [

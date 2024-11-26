@@ -7,19 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="before book for recommendations">
-      <change afterPath="$PROJECT_DIR$/RecommendationsBook/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecommendationsBook/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecommendationsBook/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/book_recommendation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/recommendation_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/recommendations_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="with book for recommendations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +180,7 @@
       <workItem from="1732603252699" duration="407000" />
       <workItem from="1732603696703" duration="2784000" />
       <workItem from="1732606983641" duration="9923000" />
-      <workItem from="1732631144931" duration="7340000" />
+      <workItem from="1732631144931" duration="7415000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -258,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732635805155</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="with book for recommendations">
+      <option name="closed" value="true" />
+      <created>1732638538948</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732638538948</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +319,8 @@
     <MESSAGE value="without sqlite" />
     <MESSAGE value="with requirements" />
     <MESSAGE value="before book for recommendations" />
-    <option name="LAST_COMMIT_MESSAGE" value="before book for recommendations" />
+    <MESSAGE value="with book for recommendations" />
+    <option name="LAST_COMMIT_MESSAGE" value="with book for recommendations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1732615836410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
