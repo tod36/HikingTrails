@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'HikingTrails.Hikers.apps.HikersConfig',
     'crispy_forms',
-    'HikingTrails.Trails.apps.TrailsConfig'
+    'HikingTrails.Trails.apps.TrailsConfig',
+    'RecommendationsBook.apps.RecommendationsbookConfig'
 ]
 
 MIDDLEWARE = [

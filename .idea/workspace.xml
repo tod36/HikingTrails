@@ -7,27 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="with requirements">
-      <change afterPath="$PROJECT_DIR$/static/css/static/images/home.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HikingTrails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HikingTrails.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="before book for recommendations">
+      <change afterPath="$PROJECT_DIR$/RecommendationsBook/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecommendationsBook/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecommendationsBook/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/book_recommendation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/recommendation_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/recommendations_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/elephant_with_balloons.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/trail_images/elephant_with_balloons.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle_LRYoFgS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/media/trail_images/puzzle_LRYoFgS_hcp7bnJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/puzzle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/trail_images/watermark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rest_framework/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trail_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trails_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trails_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,7 @@
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/tod36/SoftUni2024/HikingTrails/media/trail_images/media/trail_images",
+    "last_opened_file_path": "E:/tod36/SoftUni2024/Django Advanced/from Diyan github/petstagram-2024-main/petstagram-2024-main/petstagram",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -201,7 +192,7 @@
       <workItem from="1732603252699" duration="407000" />
       <workItem from="1732603696703" duration="2784000" />
       <workItem from="1732606983641" duration="9923000" />
-      <workItem from="1732631144931" duration="4504000" />
+      <workItem from="1732631144931" duration="7340000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -259,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732608094586</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="before book for recommendations">
+      <option name="closed" value="true" />
+      <created>1732635805155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732635805155</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +322,8 @@
     <MESSAGE value="with delete trails view" />
     <MESSAGE value="without sqlite" />
     <MESSAGE value="with requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="with requirements" />
+    <MESSAGE value="before book for recommendations" />
+    <option name="LAST_COMMIT_MESSAGE" value="before book for recommendations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1732615836410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

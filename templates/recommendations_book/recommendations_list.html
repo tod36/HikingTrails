@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Book Recommendations</h1>
+    <ul>
+        {% for recommendation in recommendations %}
+            <li>
+                {{ recommendation.book_title }} by {{ recommendation.hiker.username }}
+                <p>{{ recommendation.message }}</p>
+                <p>Likes: {{ recommendation.likes }}</p>
+                <a href="{% url 'like_recommendation' recommendation.pk %}" class="btn btn-primary">Like</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
