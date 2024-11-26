@@ -14,7 +14,7 @@ class Trails(models.Model):
 
     name = models.CharField(max_length=100)
     length = models.FloatField(null=True, blank=True)
-    image = models.ImageField(upload_to='media/trail_images/', null=True, blank=True, validators=[validate_image])
+    image = models.ImageField(upload_to='media/trail_images', null=True, blank=True, validators=[validate_image])
     difficulty = models.TextField(
         choices=Difficulty.choices,
         default=Difficulty.EASY,

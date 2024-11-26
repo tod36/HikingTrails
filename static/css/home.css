@@ -13,7 +13,7 @@ body, html {
 header {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .logo img {
@@ -86,4 +86,36 @@ footer {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
 }

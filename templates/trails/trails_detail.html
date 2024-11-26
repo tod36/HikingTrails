@@ -8,7 +8,7 @@
     <p>Length: {{ trail.length }} km</p>
     <p>Elevation Gain: {{ trail.elevation_gain }} m</p>
     <img src="{{ trail.image.url }}" alt="{{ trail.name }}">
-    <a href="{% url 'trail_list' %}">Back to trails list</a>
-    <a href="{% url 'comment_trail' trail.pk %}">Comment</a>
-    <a href="{% url 'trail_delete' trail.pk %}">Delete</a>
+    <a href="{% url 'trail_list' %}" class="button btn-lg btn-primary">Back to trails list</a>
+    <a href="{% url 'comment_trail' trail.pk %}" class="button btn-lg btn-primary">Comment</a>
+    <a href="{% url 'trail_delete' trail.pk %}" class="button btn-lg btn-primary">Delete</a>
 {% endblock %}

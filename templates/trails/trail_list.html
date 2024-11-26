@@ -1,9 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Trails List</h1>
-    <ul>
+<div class="container mt-5">
+    <h1 class="mb-4">Trails List</h1>
+    <ul class="list-group">
         {% for trail in trails %}
-            <li><a href="{% url 'trails_detail' trail.pk %}">{{ trail.name }}</a></li>
+            <li class="list-group-item">
+                <a href="{% url 'trails_detail' trail.pk %}" class="text-decoration-none">{{ trail.name }}</a>
+            </li>
         {% endfor %}
     </ul>
+</div>
 {% endblock %}

@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page base</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
 <body>
+{#<body style="background-image: url('static/images/home.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">#}
 <header>
     <div class="logo">
         <a href="{% url 'home_with_nav' %}">
@@ -22,7 +24,7 @@
 <footer>
     <p>&copy; 2024 Hiking Trails tod36 all rights reserved.</p>
     <div class="footer-links">
-        <a href="#">Privacy Policy</a>
+{#        <a href="{% url 'recommendations' %}" class="button btn-primary">Book for recommendations</a>#}
         <a href="#">Terms of Service</a>
         <a href="#">Contact Us</a>
     </div>
