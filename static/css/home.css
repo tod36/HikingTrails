@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 150%;
     font-family: "Times New Roman", sans-serif;
-    background-image: url('../images/home.jpg');
+    background-image: url('static/images/home.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
