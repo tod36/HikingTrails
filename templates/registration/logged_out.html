@@ -7,6 +7,6 @@
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Logout</button>
-        <p>You will be redirect to Home page<a href="{% url 'home_with_nav' %}">Logout</a></p>
+        <p>You will be redirect to Home page<a href="{% url 'home' %}">Logout</a></p>
     </form>
 {% endblock %}

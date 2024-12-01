@@ -1,4 +1,5 @@
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, DeleteView
 
@@ -24,6 +25,7 @@ class TrailsDetailView(DetailView):
     template_name = 'trails/trails_detail.html'
     context_object_name = 'trail'
 
+
 class TrailDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Trails
     success_url = reverse_lazy('trail_list')  # Replace with your trail list view name
@@ -42,4 +44,23 @@ class CommentCreateView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         form.instance.trail_id = self.kwargs['pk']
+        if not hasattr(self.request.user, 'hiker') or not self.request.user.is_approved:
+            return self.handle_no_permission()
         return super().form_valid(form)
+
+    # def get_form(self, form_class=None):
+    #     form = super().get_form(form_class)
+    #     form.fields['user'].disabled = True
+    #     return form
+
+    # def form_valid(self, form):
+    #     form.instance.user = self.request.user
+    #     form.instance.trail_id = self.kwargs['pk']
+    #     if not self.request.user.is_approved:
+    #         return self.handle_no_permission()
+    #     return super().form_valid(form)
+
+
+
+def custom_permission_denied_view(request, exception):
+    return render(request, '403.html', status=403)

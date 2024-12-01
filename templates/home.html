@@ -8,9 +8,23 @@
     <div class="content">
         <h1>Welcome to Hiking Trails</h1>
 
-        <p>Register or login to access the hiking trails</p>
-        <a href="{% url 'register' %}">Register</a>
-        <a href="{% url 'login' %}">Login</a>
+        {% if user.is_authenticated %}
+            <h1>Hello, {{ user.username }}!</h1>
+            <a href="{% url 'trail_list' %}">Continue</a>
+            <form method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+{#            <a href="{% url 'logout' %}">Logout</a>#}
+{#            <a href="hikers/hiker_details.html" class="button bg-faded">Hello, {{ user.username }}!</a>#}
+        {% else %}
+            <h1>Hello, anonymous user!</h1>
+             <a href="{% url 'register' %}">Register</a>
+        {% endif %}
+
+{#        <p>Register or login to access the hiking trails</p>#}
+       
+        
     </div>
 
     </body>

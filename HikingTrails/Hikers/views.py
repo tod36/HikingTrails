@@ -47,3 +47,4 @@ def home(request):
 
 def home_with_nav(request):
     return render(request, 'hikers/home_with_nav.html')
+

@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block content %}
 
     <title>Navigation Panel</title>
@@ -8,10 +9,23 @@
 
         <a href="{% url 'home' %}">Home with nav</a>
         <a href="{% url 'hiker_details' pk=1 %}">Hiker Details</a>
-        <a href="{% url 'register' %}">Register</a>
         <a href="{% url 'trails_create' %}">Create Trail</a>
         <a href="{% url 'trail_list' %}">List Trails</a>
-
-
+        {% if user.is_authenticated %}
+            <a>The Hiker is authenticated!</a>
+            <form method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+        {% else %}
+            <a>The Hiker is not authenticated!</a>
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'register' %}">Register</a>
+        {% endif %}
+        {% if user.is_approved %}
+            <a>The Hiker is approved!</a>
+        {% else %}
+            <a>The Hiker is not approved!</a>
+        {% endif %}
     </div>
 {% endblock %}
