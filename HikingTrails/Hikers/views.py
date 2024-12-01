@@ -3,6 +3,7 @@ from django.shortcuts import redirect, render
 from django.views import View
 
 from HikingTrails.Hikers.forms import HikerRegForm
+from HikingTrails.Hikers.models import Hiker
 
 
 class HikerRegView(View):
@@ -48,3 +49,7 @@ def home(request):
 def home_with_nav(request):
     return render(request, 'hikers/home_with_nav.html')
 
+
+def approved_hikers(request):
+    approved_hikers_list = Hiker.objects.filter(is_approved=True)
+    return render(request, 'hikers/approved_hikers.html', {'approved_hikers': approved_hikers_list})

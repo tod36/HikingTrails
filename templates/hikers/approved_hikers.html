@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Approved Hikers</h1>
+    <ul>
+    {% if approved_hikers %}
+        {% for user in approved_hikers %}
+            <li>{{ user.username }}</li>
+        {% endfor %}
+    {% else %}
+        <li>No approved hikers</li>
+    {% endif %}
+    </ul>
+{% endblock %}

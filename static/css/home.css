@@ -46,6 +46,22 @@ footer {
     width: 100%;
 }
 
+.top {
+  --offset: 100px;
+
+  position: sticky;
+  bottom: 20px;
+  margin-right: -1400px;
+  place-self: end;
+  /*margin-top: calc(100vh + var(--offset));*/
+
+  width: 60px;
+  aspect-ratio: 1;
+  background: #ff8b24;
+  border-radius: 10px;
+  /*font-size: 0;*/
+}
+
 .footer-links {
     margin-top: 10px;
 }
@@ -133,4 +149,19 @@ a:hover {
 
 .social-media-buttons .btn i {
     margin-right: 5px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button img {
+    margin-right: 10px;
 }

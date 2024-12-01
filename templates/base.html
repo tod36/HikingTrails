@@ -37,8 +37,8 @@
     <p>&copy; 2024 Hiking Trails tod36 all rights reserved.</p>
     <div class="footer-links">
         <a href="{% url 'book_recommendation' %}" class="button btn-secondary">Book for recommendations</a>
-{#        <a href="#">Terms of Service</a>#}
-{#        <a href="#">Contact Us</a>#}
+        {#        <a href="#">Terms of Service</a>#}
+        {#        <a href="#">Contact Us</a>#}
     </div>
     <div class="social-media-buttons">
         <a href="https://wa.me/yourphonenumber" class="btn btn-success" target="_blank">
@@ -47,8 +47,16 @@
         <a href="https://twitter.com/yourprofile" class="btn btn-info" target="_blank">
             <i class="fab fa-twitter"></i> Twitter
         </a>
-        <!-- Add more social media buttons as needed -->
     </div>
+{#    <a href="#" class="top">Back to Top</a>#}
+{#    <button>#}
+{#        <img src="{% static 'top_button.png' %}" alt="Button Image" style="width: 20px; height: 20px;">#}
+{#        TOP#}
+{#    </button>#}
+    <a href="#" class="top">
+        <img src="{% static 'top_button.png' %}" alt="Button Image" style="width: 20px; height: 20px;">
+    </a>
+    
 </footer>
 </body>
 </html>

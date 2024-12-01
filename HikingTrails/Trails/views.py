@@ -1,10 +1,12 @@
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.http import HttpResponseForbidden
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, DeleteView
 
 from .models import Comment
 from .models import Trails
+from ..Hikers.models import Hiker
 
 
 class TrailsCreateView(CreateView):
@@ -42,24 +44,36 @@ class CommentCreateView(LoginRequiredMixin, CreateView):
     success_url = reverse_lazy('trail_list')
 
     def form_valid(self, form):
-        form.instance.user = self.request.user
+        user = self.request.user
+        if not Hiker.objects.filter(id=user.id).exists():
+            return HttpResponseForbidden("User does not exist.")
+        form.instance.user = user
         form.instance.trail_id = self.kwargs['pk']
-        if not hasattr(self.request.user, 'hiker') or not self.request.user.is_approved:
+        if user.is_approved:
+            return super().form_valid(form)
+        else:
             return self.handle_no_permission()
-        return super().form_valid(form)
-
-    # def get_form(self, form_class=None):
-    #     form = super().get_form(form_class)
-    #     form.fields['user'].disabled = True
-    #     return form
 
     # def form_valid(self, form):
     #     form.instance.user = self.request.user
     #     form.instance.trail_id = self.kwargs['pk']
-    #     if not self.request.user.is_approved:
+    #     if self.request.user.is_approved:
+    #         return super().form_valid(form)
+    #     else:
     #         return self.handle_no_permission()
-    #     return super().form_valid(form)
 
+
+# def get_form(self, form_class=None):
+#     form = super().get_form(form_class)
+#     form.fields['user'].disabled = True
+#     return form
+
+# def form_valid(self, form):
+#     form.instance.user = self.request.user
+#     form.instance.trail_id = self.kwargs['pk']
+#     if not self.request.user.is_approved:
+#         return self.handle_no_permission()
+#     return super().form_valid(form)
 
 
 def custom_permission_denied_view(request, exception):
