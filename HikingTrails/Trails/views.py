@@ -36,6 +36,12 @@ class TrailDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         trail = self.get_object()
         return self.request.user == trail.hiker and self.request.user.is_approved
 
+# def create_comment(request):
+#     hiker = Hiker.objects.get(id=request.POST['hiker_id'])
+#     comment = Comment(comment=request.POST['comment'], hiker_id=hiker)
+#     comment.save()
+
+
 
 class CommentCreateView(LoginRequiredMixin, CreateView):
     model = Comment

@@ -1,7 +1,6 @@
 from django.urls import path
 
-from HikingTrails.Trails.views import TrailsListView, TrailsDetailView, TrailsCreateView, CommentCreateView, \
-    TrailDeleteView
+from HikingTrails.Trails.views import TrailsListView, TrailsDetailView, TrailsCreateView, TrailDeleteView, CommentCreateView
 
 urlpatterns = [
     path('', TrailsListView.as_view(), name='trail_list'),
@@ -11,4 +10,6 @@ urlpatterns = [
     path('<int:pk>/delete/', TrailDeleteView.as_view(), name='trail_delete'),
 
     path('<int:pk>/comment/', CommentCreateView.as_view(), name='comment_trail'),
+
+    # path('<int:pk>/comment/', create_comment, name='comment_trail'),
 ]

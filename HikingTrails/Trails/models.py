@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.contrib.auth.models import User
 from django.db import models
+from django.db.models import CASCADE
 
 from HikingTrails.Hikers.models import Hiker
 from HikingTrails.Trails.validators import validate_image
@@ -31,9 +32,10 @@ class Trails(models.Model):
 
 
 class Comment(models.Model):
-    trail = models.ForeignKey(Trails, on_delete=models.CASCADE, related_name='comments')
+    trail = models.ForeignKey(to=Trails, on_delete=models.CASCADE, related_name='comments')
     # user = models.ForeignKey(Hiker, on_delete=models.CASCADE)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    # hiker_id = models.ForeignKey(to=Hiker, on_delete=CASCADE)
     text = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 

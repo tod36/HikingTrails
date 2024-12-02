@@ -165,3 +165,14 @@ button {
 button img {
     margin-right: 10px;
 }
+
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.left-button {
+    display: block;
+    margin-left: 0;
+}

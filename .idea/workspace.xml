@@ -7,7 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="auth and little css buttons" />
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="auth and little css buttons">
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0008_rename_user_comment_hiker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0009_rename_hiker_comment_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/save_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/trails/comment_trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/comment_trail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,41 +70,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.HikingTrails.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: .executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/HikingTrails/media&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.HikingTrails.executor": "Run",
+    "Django tests.Test: .executor": "Run",
+    "JavaScript Debug.base.html.executor": "Coverage",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/tod36/SoftUni2024/HikingTrails/static/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tod36\SoftUni2024\HikingTrails\static\images" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\media" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\trail_images" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\static" />
-      <recent name="E:\tod36\SoftUni2024\HikingTrails\media\trail_images\media\trail_images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media" />
@@ -195,7 +206,9 @@
       <workItem from="1732977480432" duration="3403000" />
       <workItem from="1732992712240" duration="2210000" />
       <workItem from="1733034998287" duration="5856000" />
-      <workItem from="1733061174712" duration="9653000" />
+      <workItem from="1733061174712" duration="9780000" />
+      <workItem from="1733117890188" duration="3708000" />
+      <workItem from="1733130177421" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -293,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733079745052</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="auth and little css buttons">
+      <option name="closed" value="true" />
+      <created>1733079932894</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733079932894</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
