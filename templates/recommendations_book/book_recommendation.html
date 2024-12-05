@@ -4,6 +4,8 @@
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary center-button">Submit</button>
+        <a href="{% url 'recommendation_list' %}" class="large-button">All recommendations</a>
+
     </form>
 {% endblock %}

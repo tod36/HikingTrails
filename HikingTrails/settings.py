@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'HikingTrails.Trails.apps.TrailsConfig',
     'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig'
 ]
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -58,8 +59,7 @@ ROOT_URLCONF = 'HikingTrails.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -141,8 +141,6 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home_with_nav'
 
 LOGOUT_REDIRECT_URL = 'home'
-
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 AUTH_USER_MODEL = 'Hikers.Hiker'
 

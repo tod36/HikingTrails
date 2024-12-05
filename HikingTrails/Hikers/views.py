@@ -2,7 +2,7 @@ from django.contrib.auth import login
 from django.shortcuts import redirect, render
 from django.views import View
 
-from HikingTrails.Hikers.forms import HikerRegForm
+from HikingTrails.Hikers.forms import HikerRegForm, HikerDetailForm
 from HikingTrails.Hikers.models import Hiker
 
 
@@ -40,6 +40,38 @@ class HikerDetailView(View):
             login(request, user)
             return redirect('home_with_nav')
         return render(request, self.template_name, {'form': form})
+
+
+class HikerUpdateView(View):
+    form_class = HikerDetailForm
+    exclude = ['username', 'email']
+    template_name = 'hikers/hiker_update.html'
+
+    def get(self, request, *args, **kwargs):
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        form = self.form_class(instance=hiker)
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        form = self.form_class(request.POST, request.FILES, instance=hiker)
+        if form.is_valid():
+            form.save()
+            return redirect('home_with_nav')
+        return render(request, self.template_name, {'form': form})
+
+
+class HikerDeleteView(View):
+    template_name = 'hikers/hiker_delete.html'
+
+    def get(self, request, *args, **kwargs):
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        return render(request, self.template_name, {'hiker': hiker})
+
+    def post(self, request, *args, **kwargs):
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        hiker.delete()
+        return redirect('home_with_nav')
 
 
 def home(request):

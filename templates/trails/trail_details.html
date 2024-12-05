@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ trail.name }}, by {{ trail.hiker }}</h1>
+    <p>Location: {{ trail.location }}</p>
+    <p>Difficulty: {{ trail.get_difficulty_display }}</p>
+    <p>Description: {{ trail.description }}</p>
+    <p>Length: {{ trail.length }} km</p>
+    <p>Elevation Gain: {{ trail.elevation_gain }} m</p>
+    {% if trail.image %}
+        <img src="{{ trail.image.url }}" alt="{{ trail.name }}" style="width: 300px; height: auto;">
+    {% else %}
+        <p>No image available for this trail.</p>
+    {% endif %}
+    <a href="{% url 'trail_list' %}" class="button btn-lg btn-primary">Back to trails list</a>
+    <a href="{% url 'trail_edit' trail.pk %}" class="button btn-lg btn-primary">Edit trail</a>
+    <a href="{% url 'comment_trail' trail.pk %}" class="button btn-lg btn-primary">Comment trail</a>
+    <a href="{% url 'trail_delete' trail.pk %}" class="button btn-lg btn-primary">Delete</a>
+
+    <h2>Comments</h2>
+    <div class="comment-section">
+        {% for comment in page_obj %}
+            <div class="fa-comments-o">
+                <p><strong>{{ comment.user.username }}</strong> said:</p>
+                <p>{{ comment.text }}</p>
+                <p><em>Posted on {{ comment.created_at }}</em></p>
+            </div>
+        {% empty %}
+            <p>No comments yet.</p>
+        {% endfor %}
+        <div class="pagination">
+            <span class="step-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page=1">&laquo; first</a>
+                    <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+
+                <span class="current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">next</a>
+                    <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+                {% endif %}
+            </span>
+        </div>
+    </div>
+
+    <h2>Photos</h2>
+    <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+        {% for photo in trail.photos.all %}
+            <div class="photo" style="margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                <img src="{{ photo.image.url }}" alt="{{ photo.description }}" style="width: 300px; height: auto;">
+                <p>{{ photo.description }}</p>
+            </div>
+        {% empty %}
+            <p>No photos yet.</p>
+        {% endfor %}
+    </div>
+
+    <h2>Upload Photo</h2>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ photo_form.as_p }}
+                <button type="submit" name="photo" class="btn btn-primary center-button">Upload</button>
+            </form>
+        </div>
+    </div>
+    </div>
+{% endblock %}

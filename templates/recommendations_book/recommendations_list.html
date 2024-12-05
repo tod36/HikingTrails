@@ -4,10 +4,12 @@
     <ul>
         {% for recommendation in recommendations %}
             <li>
-                {{ recommendation.book_title }} by {{ recommendation.hiker.username }}
-                <p>{{ recommendation.message }}</p>
+                <p style="background-color: lightblue; padding: 10px;">{{ recommendation.book_title }}
+                    Posted from "{{ recommendation.hiker.username }}"</p>
+                <p style="background-color: lightblue; padding: 10px;">{{ recommendation.message }}</p>
                 <p>Likes: {{ recommendation.likes }}</p>
                 <a href="{% url 'like_recommendation' recommendation.pk %}" class="btn btn-primary">Like</a>
+                <a href="{% url 'delete_recommendation' recommendation.pk %}" class="btn btn-danger">Delete</a>
             </li>
         {% endfor %}
     </ul>

@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hiker Details</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ user.username }}'s Details</h1>
+    <p>Age: {{ user.age }}</p>
+    <p>Phone: {{ user.phone }}</p>
+    <p>Address: {{ user.address }}</p>
+    {% if user.hiker_image %}
+{#        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" class="small-profile-image">#}
 
-</body>
-</html>
+        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" style="width: 80px; height: auto;">
+    {% else %}
+        <p>No image uploaded.</p>
+    {% endif %}
+    {% if user.is_approved %}
+        <p>You, {{ user }} are approved to perform certain operations!</p>
+    {% else %}
+        <p>You, {{ user }} are not approved to perform certain operations!</p>
+    {% endif %}
+    <a href="{% url 'hiker_update' user.pk %}" class="button btn-lg btn-primary">Update</a>
+    <a href="{% url 'hiker_delete' user.pk %}" class="button btn-lg btn-primary">Delete {{ user }}</a>
+{% endblock %}

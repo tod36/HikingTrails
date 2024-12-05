@@ -6,6 +6,7 @@
     {% if approved_hikers %}
         {% for user in approved_hikers %}
             <li>{{ user.username }}</li>
+            <a href="{% url 'hiker_details' user.pk %}" class="btn btn-primary">View Profile</a>
         {% endfor %}
     {% else %}
         <li>No approved hikers</li>

@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 150%;
+    height: 100%;
     font-family: "Times New Roman", sans-serif;
     background-image: url('static/images/home.jpg');
     background-size: cover;
@@ -10,9 +10,45 @@ body, html {
     color: #333;
 }
 
+.footer {
+    display: table-cell;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    min-height: 50px;
+    z-index: 1;
+}  /* Adjust this value as needed */
+
+.footer-item { margin: 0 1em;
+    text-align: center; }
+
+/*footer {*/
+/*    margin-top: auto;*/
+/*    background-color: rgba(0, 0, 0, 0.5); !* Semi-transparent background *!*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    padding: 1em;*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+/*footer { position: absolute;*/
+/*    bottom: 0; width: 100%;*/
+/*    height: 50px; !* Adjust this to the height of your footer *!*/
+/*    background-color: #f8f9fa;*/
+/*    text-align: center;*/
+/*    padding: 10px 0;*/
+/*}*/
+
 header {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    padding: 20px;
+    /*padding: 20px;*/
     text-align: left;
 }
 
@@ -22,10 +58,11 @@ header {
 }
 
 main {
+    padding-bottom: 100px;/* Adjust to accommodate footer height */
     display: flow;
     justify-content: center;
     align-items: center;
-    height: calc(80% - 140px); /* Adjust to accommodate header and footer height */
+    /*height: calc(80% - 50px); !* Adjust to accommodate header and footer height *!*/
     text-align: center;
 }
 
@@ -34,16 +71,6 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 .top {
@@ -118,7 +145,7 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 a {
@@ -152,7 +179,7 @@ a:hover {
 }
 
 button {
-    display: flex;
+    /*display: ruby;*/
     align-items: center;
     padding: 10px;
     background-color: #007BFF;
@@ -162,8 +189,10 @@ button {
     border-radius: 5px;
 }
 
+.large-button:hover { background-color: #45a049; /* Darker green on hover */ }
+
 button img {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .center-button {
@@ -172,7 +201,66 @@ button img {
     margin-right: auto;
 }
 
-button.left-button {
+.left-button {
     display: block;
     margin-left: 0;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px;  /* Distance from the right */
+    background-color: #007bff; /* Button color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 2px 2px; /* Padding inside the button */
+    font-size: 2px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 2; /* Ensure the button stays above other content */
+}
+
+.small-button {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.small-profile-image {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    border-radius: 50%; /* Optional: make the image circular */
+}
+
+.text-background {
+    background-color: #f0f0f0; /* Set the desired background color */
+    padding: 10px; /* Add some padding */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
+.comment-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+.comment strong {
+    color: #333;
+}
+
+.comment em {
+    color: #777;
+    font-size: 0.9em;
 }

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if user.is_staff %}
+        <h1>Are you sure you want to delete {{ hiker.username }}?</h1>
+        <form action="{% url 'hiker_delete' user.pk %}" method="post">
+            {% csrf_token %}
+            <button type="submit" class="button btn-lg btn-danger center-button">Confirm Delete</button>
+        </form>
+        <a href="{% url 'hiker_details' hiker.pk %}" class="button btn-lg btn-secondary">Cancel</a>
+    {% else %}
+        <h1>Only staff members can delete hikers.</h1>
+        <a href="{% url 'hiker_details' hiker.pk %}" class="button btn-lg btn-secondary">Back to profile</a>
+    {% endif %}
+{% endblock %}

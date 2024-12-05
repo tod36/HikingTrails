@@ -22,12 +22,13 @@ from HikingTrails.Hikers.models import Hiker
 class HikerDetailForm(forms.ModelForm):
     class Meta:
         model = Hiker
-        fields = ['username', 'first_name', 'last_name', 'email', 'age', 'phone', 'address', 'hiker_image']
+        # exclude = ['username', 'email']
+        fields = ['first_name', 'last_name', 'age', 'phone', 'address', 'hiker_image']
         widgets = {
-            'username': forms.TextInput(attrs={'placeholder': 'You cannot change your username', 'disabled': True}),
+            # 'username': forms.TextInput(attrs={'placeholder': 'You cannot change your username', 'disabled': True}),
             'first_name': forms.TextInput(attrs={'placeholder': 'Enter your first name'}),
             'last_name': forms.TextInput(attrs={'placeholder': 'Enter your last name'}),
-            'email': forms.EmailInput(attrs={'placeholder': 'Enter your email address', 'disabled': True}),
+            # 'email': forms.EmailInput(attrs={'placeholder': 'Enter your email address', 'disabled': True}),
             'age': forms.NumberInput(attrs={'placeholder': 'Enter your age'}),
             'phone': forms.TextInput(attrs={'placeholder': 'Enter your phone number'}),
             'address': forms.Textarea(attrs={'placeholder': 'Enter your address'}),
