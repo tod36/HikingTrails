@@ -7,48 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="comment with 2 foreign keys">
-      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0010_trailphotos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HikingTrails/Trails/migrations/0011_alter_trailphotos_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/trail_images/puzzle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hikers/hiker_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recommendations_book/delete_recommendation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/trails/trail_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/trails/trail_edit.html" afterDir="false" />
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="with tests">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/RecommendationsBook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/RecommendationsBook/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/top_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/top_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recommendations_book/book_recommendation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recommendations_book/book_recommendation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recommendations_book/recommendations_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recommendations_book/recommendations_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/comment_trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/comment_trail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trail_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trails_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trails_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trails_detail.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,36 +62,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.HikingTrails.executor": "Run",
-    "Django tests.Test: .executor": "Run",
-    "Django tests.Test: HikingTrails.Hikers.tests.HikerDetailViewTest.executor": "Run",
-    "Django tests.Test: HikingTrails.Hikers.tests.HikerRegViewTest.executor": "Run",
-    "JavaScript Debug.base.html.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/tod36/SoftUni2024/HikingTrails/media/trail_images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.HikingTrails.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: .executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: HikingTrails.Hikers.tests.HikerDetailViewTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: HikingTrails.Hikers.tests.HikerRegViewTest.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/HikingTrails/media/trail_images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\trail_images" />
@@ -295,7 +256,9 @@
       <workItem from="1733289977316" duration="5996000" />
       <workItem from="1733319063256" duration="21768000" />
       <workItem from="1733396949059" duration="110000" />
-      <workItem from="1733406821880" duration="3734000" />
+      <workItem from="1733406821880" duration="4537000" />
+      <workItem from="1733471740756" duration="3487000" />
+      <workItem from="1733555071567" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -409,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733132212767</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="with tests">
+      <option name="closed" value="true" />
+      <created>1733410980439</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733410980439</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +451,8 @@
     <MESSAGE value="little css buttons" />
     <MESSAGE value="auth and little css buttons" />
     <MESSAGE value="comment with 2 foreign keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment with 2 foreign keys" />
+    <MESSAGE value="with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="with tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1733410878276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
