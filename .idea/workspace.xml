@@ -7,12 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="before Azure">
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="for Azure">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +261,7 @@
       <workItem from="1733471740756" duration="3487000" />
       <workItem from="1733555071567" duration="1430000" />
       <workItem from="1733587615852" duration="182000" />
-      <workItem from="1733651323462" duration="2778000" />
+      <workItem from="1733651323462" duration="4313000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -417,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733651484993</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="for Azure">
+      <option name="closed" value="true" />
+      <created>1733654755883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733654755883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +496,8 @@
     <MESSAGE value="comment with 2 foreign keys" />
     <MESSAGE value="with tests" />
     <MESSAGE value="before Azure" />
-    <option name="LAST_COMMIT_MESSAGE" value="before Azure" />
+    <MESSAGE value="for Azure" />
+    <option name="LAST_COMMIT_MESSAGE" value="for Azure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1733410878276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
