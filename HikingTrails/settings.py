@@ -155,3 +155,5 @@ LOGOUT_REDIRECT_URL = 'home'
 AUTH_USER_MODEL = 'Hikers.Hiker'
 
 CSRF_FAILURE_VIEW = 'HikingTrails.views.custom_csrf_failure_view'
+
+CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_ORIGINS', default='')).split(',')
