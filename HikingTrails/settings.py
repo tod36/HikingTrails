@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'HikingTrails.Hikers.apps.HikersConfig',
     'crispy_forms',
     'HikingTrails.Trails.apps.TrailsConfig',
-    'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig'
+    'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig',
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -136,7 +136,7 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR / '/media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
