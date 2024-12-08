@@ -14,6 +14,8 @@ from pathlib import Path
 
 from decouple import config
 
+import HikingTrails
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,9 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'HikingTrails.Hikers.apps.HikersConfig',
-    'crispy_forms',
-    'HikingTrails.Trails.apps.TrailsConfig',
     'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig',
+    'HikingTrails.Trails.apps.TrailsConfig',
+    'crispy_forms',
+
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 

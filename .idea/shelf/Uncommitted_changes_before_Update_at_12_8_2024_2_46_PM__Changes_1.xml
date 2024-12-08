@@ -1,0 +1,948 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1" date="1733662008950" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/8/2024 2:46 PM [Changes]" />
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.flv" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.flv" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-delete-handler-predelete.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler-predelete.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/undo.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/undo.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-lookup.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_777777_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_777777_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/back-link_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/form-select.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/form-select.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/backgrounds/nav-grabber.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/nav-grabber.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-arrow-down-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-down-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/add-another.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-another.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-add-m2m-vertical.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-vertical.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-embarassed.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-drag-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-drag-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/quicktime.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bold.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bold.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/breadcrumbs.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-lookup-m2m.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup-m2m.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-frown.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg_black.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/img/admin/arrow-up.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/arrow-up.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-trash-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/charmap.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/charmap.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler-disabled.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-disabled.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.swf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.swf" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-edit-handler-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/object-tools-viewsite-link.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/object-tools-viewsite-link.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-kiss.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_cc0000_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_cc0000_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/buttons.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-mceResize.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-mceResize.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/object-tools-add-link.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/object-tools-add-link.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-add-m2m-vertical_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-vertical_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/windowsmedia.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/menu_arrow.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/ui-datepicker-prev.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-prev.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-surprised.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-remove.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-remove.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-arrow-up-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-up-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-close-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-close-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-external-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/delete-link-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/delete-link-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/template.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/template.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/add-link-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-link-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_before.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_col_before.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-undecided.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-edit-handler-small-disabled.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small-disabled.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/vertical.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/160_0107.JPG" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/160_0107.JPG" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/filter-choice-selected-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/filter-choice-selected-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/breadcrumbs_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-remove-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-remove-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-remove-m2m-horizontal.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-horizontal.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/ui-datepicker-prev_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-prev_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_row.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_delete_row.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/home.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/home.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/date-hierarchy-back_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-edit-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-edit-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/ui-datepicker-next.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-next.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_col.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_delete_col.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/change-link-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/change-link-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-money-mouth.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/image-0-02-05-e043d9eecd70f10990abf589066a72a4813524e3c9b5cbeebdd19c17c17f53fa-V.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image-0-02-05-e043d9eecd70f10990abf589066a72a4813524e3c9b5cbeebdd19c17c17f53fa-V.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/add-link-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-link-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/autocomplete-single-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/autocomplete-single-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/backgrounds/ui-sortable-placeholder.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-sortable-placeholder.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/show_advanced.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/show_advanced.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-trash-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/pagebreak.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pagebreak.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/timepicker_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/timepicker_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/moxieplayer.swf" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-viewsite-link.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-viewsite-link.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-external-rtl-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-rtl-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/ui-datepicker-next_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-next_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-smile.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/underline.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/underline.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/progress.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/logo.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-lookup_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/redo.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/redo.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-open-handler-hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-open-handler-hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-innocent.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-filter.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-filter.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/spritesheet-1694777276.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/spritesheet-1694777276.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/status-no.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-no.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-remove-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-remove-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/breadcrumbs-rtl_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs-rtl_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/sort-remove.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/backgrounds/messagelist.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/messagelist.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/code.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/code.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icons.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-add-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-add-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/search.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/search.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-drag-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-drag-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/items.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/iframe.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-add-m2m-horizontal_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-horizontal_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/sorted-descending.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sorted-descending.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/cleanup.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/cleanup.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/pulldown-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/link.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-add-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-add-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-external-rtl-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-rtl-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/sort-remove_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/shockwave.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/visualchars.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/visualchars.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/menu_check.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/colorpicker.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/video.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/blockquote.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/blockquote.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-edit-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/vyjeta.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/vyjeta.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/img/admin/arrow-down.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/arrow-down.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/buttons.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/realmedia.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/change-link-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/change-link-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/corners.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-delete-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-foot-in-mouth.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.avi" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.avi" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-wink.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_before.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_before.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-delete-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_props.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_props.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_split_cells.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_split_cells.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/sorted-ascending.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sorted-ascending.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/searchbox.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/searchbox.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/pulldown-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/alert.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/datepicker.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datepicker.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-cry.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/IMG-20190421-WA0002.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/IMG-20190421-WA0002.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-rtl_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-trash-list-toggle-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-list-toggle-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/datetime-now_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datetime-now_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/date-hierarchy-back-rtl.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back-rtl.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-remove-m2m-vertical_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-vertical_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/wline.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-trash-list-toggle-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-list-toggle-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/unlink.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/unlink.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/back-link-rtl_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link-rtl_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_after.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_col_after.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/back-link-rtl.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link-rtl.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/top_button.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/top_button.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/autocomplete-multiple-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/autocomplete-multiple-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/backgrounds/changelist-results.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/changelist-results.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/logo.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/trans.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_444444_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_444444_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/favicon.ico" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/favicon.ico" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/pasteword.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pasteword.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/breadcrumbs-rtl.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs-rtl.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-remove-m2m-horizontal_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-horizontal_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/fullscreen.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/fullscreen.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/th-ascending.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/th-ascending.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-rtl.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_merge_cells.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_merge_cells.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-remove_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-remove_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-arrow-down-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-down-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/logo_over.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo_over.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/backgrounds/loading-small.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/loading-small.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bullist.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bullist.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-add-handler-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-fb_show.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifycenter.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifycenter.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-close-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-close-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-viewsite-link_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-viewsite-link_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/italic.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/italic.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/image-0-02-05-48b965f3a3e7f7e20d45db527a822e0cd9b15515067858d5e473c43e7f858fdd-V.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image-0-02-05-48b965f3a3e7f7e20d45db527a822e0cd9b15515067858d5e473c43e7f858fdd-V.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-laughing.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-open-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-open-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/button_pagebreak.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_pagebreak.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/timepicker.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/timepicker.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/datetime-now.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datetime-now.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/numlist.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/numlist.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-sealed.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/sort-remove-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/status-yes.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-yes.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-add-m2m-horizontal.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-horizontal.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/flash.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tabs.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/pulldown-handler_selected.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler_selected.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/menu/icon-mceOpen.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-mceOpen.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/back-link.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/date-hierarchy-back-rtl_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back-rtl_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-rtl-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-tongue-out.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyleft.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyleft.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.dcr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.dcr" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-arrow-up-handler.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-up-handler.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_ffffff_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_ffffff_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show-hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-fb_show-hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/confirm.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.rm" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.rm" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/IMG_20180517_104549.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/IMG_20180517_104549.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg_silver.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/status-unknown.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-unknown.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_555555_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_555555_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-external-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_after.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_after.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyfull.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyfull.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/example.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/image.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/datepicker_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datepicker_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-add-handler-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/media.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/media.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-edit-handler-small.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/add-another_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-another_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/date-hierarchy-back.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/selector-remove-m2m-vertical.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-vertical.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/link-internal-rtl-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyright.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyright.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/related-lookup-m2m_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup-m2m_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/horizontal.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/jquery/ui/images/ui-icons_777620_256x240.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_777620_256x240.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-add-handler-small-disabled.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small-disabled.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler-small_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-edit-handler_hover.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-edit-handler_hover.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/examples/media/sample.mov" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.mov" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/lykatu6ene.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/lykatu6ene.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-yell.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/tools-related-remove-handler-small-disabled.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small-disabled.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-cool.gif" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/save_icon.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/save_icon.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_cell_props.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_cell_props.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/images/bilo.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bilo.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/images/icons/th-descending.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/th-descending.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="staticfiles/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pagebreak.gif" />
+  </binary>
+</changelist>
