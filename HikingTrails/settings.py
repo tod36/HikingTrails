@@ -28,9 +28,9 @@ SECRET_KEY = os.getenv('SECRET_KEY', config('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', config('DEBUG', default=False, cast=bool))
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', config('ALLOWED_HOSTS', default='*')).split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', config('ALLOWED_HOSTS')).split(',')
 
-# CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_ORIGINS', default='*')).split(',')
+CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_ORIGINS', [])).split(',')
 # Application definition
 
 INSTALLED_APPS = [
@@ -154,6 +154,6 @@ LOGOUT_REDIRECT_URL = 'home'
 
 AUTH_USER_MODEL = 'Hikers.Hiker'
 
-CSRF_FAILURE_VIEW = 'HikingTrails.views.custom_csrf_failure_view'
+# CSRF_FAILURE_VIEW = 'HikingTrails.views.custom_csrf_failure_view'
 
-CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_ORIGINS', default='')).split(',')
+# CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_ORIGINS', default='')).split(',')
