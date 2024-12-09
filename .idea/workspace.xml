@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="csrf trusted">
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="allowed hosts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +263,7 @@
       <workItem from="1733655688238" duration="5490000" />
       <workItem from="1733663698320" duration="3866000" />
       <workItem from="1733673272512" duration="5223000" />
-      <workItem from="1733730853559" duration="2805000" />
+      <workItem from="1733730853559" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -490,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733682804630</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="allowed hosts">
+      <option name="closed" value="true" />
+      <created>1733770542658</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733770542658</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +573,8 @@
     <MESSAGE value="for Azure" />
     <MESSAGE value="apps config problem" />
     <MESSAGE value="csrf trusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="csrf trusted" />
+    <MESSAGE value="allowed hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="allowed hosts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1733410878276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
