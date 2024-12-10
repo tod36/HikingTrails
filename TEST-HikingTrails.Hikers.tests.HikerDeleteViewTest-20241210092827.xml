@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HikingTrails.Hikers.tests.HikerDeleteViewTest-20241210092827" tests="2" file="HikingTrails/Hikers/tests.py" time="0.860" timestamp="2024-12-10T09:28:28" failures="0" errors="0" skipped="0">
-	<testcase classname="HikingTrails.Hikers.tests.HikerDeleteViewTest" name="test_get_hiker_delete_view" time="0.411" timestamp="2024-12-10T09:28:27" file="HikingTrails\Hikers\tests.py" line="61"/>
-	<testcase classname="HikingTrails.Hikers.tests.HikerDeleteViewTest" name="test_post_hiker_delete_view" time="0.449" timestamp="2024-12-10T09:28:28" file="HikingTrails\Hikers\tests.py" line="67"/>
-</testsuite>

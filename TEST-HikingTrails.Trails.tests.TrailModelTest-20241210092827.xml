@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HikingTrails.Trails.tests.TrailModelTest-20241210092827" tests="2" file="HikingTrails/Trails/tests.py" time="0.703" timestamp="2024-12-10T09:28:30" failures="0" errors="0" skipped="0">
-	<testcase classname="HikingTrails.Trails.tests.TrailModelTest" name="test_trail_creation" time="0.356" timestamp="2024-12-10T09:28:30" file="HikingTrails\Trails\tests.py" line="18"/>
-	<testcase classname="HikingTrails.Trails.tests.TrailModelTest" name="test_trail_string_representation" time="0.347" timestamp="2024-12-10T09:28:30" file="HikingTrails\Trails\tests.py" line="24"/>
-</testsuite>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HikingTrails.Hikers.tests.HikerRegFormTest-20241210092827" tests="2" file="HikingTrails/Hikers/tests.py" time="0.013" timestamp="2024-12-10T09:28:28" failures="0" errors="0" skipped="0">
-	<testcase classname="HikingTrails.Hikers.tests.HikerRegFormTest" name="test_hiker_reg_form_invalid_password_mismatch" time="0.011" timestamp="2024-12-10T09:28:28" file="HikingTrails\Hikers\tests.py" line="38"/>
-	<testcase classname="HikingTrails.Hikers.tests.HikerRegFormTest" name="test_hiker_reg_form_valid" time="0.002" timestamp="2024-12-10T09:28:28" file="HikingTrails\Hikers\tests.py" line="29"/>
-</testsuite>
