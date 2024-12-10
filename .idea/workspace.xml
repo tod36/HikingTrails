@@ -8,7 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="allowed hosts">
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/migrations/0003_alter_hiker_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Hikers/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +77,20 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.HikingTrails.executor": "Run",
     "Django tests.Test: .executor": "Run",
+    "Django tests.Test: HikingTrails.Hikers.test_utils.UtilsTests.executor": "Run",
     "Django tests.Test: HikingTrails.Hikers.tests.HikerDetailViewTest.executor": "Run",
     "Django tests.Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation.executor": "Run",
     "Django tests.Test: HikingTrails.Hikers.tests.HikerRegViewTest.executor": "Run",
+    "Django tests.Test: HikingTrails.Hikers.tests.SignalTests.executor": "Run",
+    "Django tests.Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal.executor": "Run",
     "Django tests.Test: HikingTrails.Hikers.tests.executor": "Run",
     "Django tests.Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation.executor": "Run",
     "JavaScript Debug.base.html.executor": "Run",
     "Python tests.Python tests for test_settings.TestGetEnv.executor": "Run",
     "Python tests.Python tests for test_settings.TestGetEnv.test_environment_variables.executor": "Run",
+    "Python.apps.executor": "Run",
     "Python.settings.executor": "Run",
+    "Python.signals.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -114,7 +130,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Django Server.HikingTrails">
-    <configuration name="Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: HikingTrails.Hikers.test_utils.UtilsTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="HikingTrails" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,14 +144,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation" />
+      <option name="TARGET" value="HikingTrails.Hikers.test_utils.UtilsTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: HikingTrails.Hikers.tests.SignalTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="HikingTrails" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,14 +165,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation" />
+      <option name="TARGET" value="HikingTrails.Hikers.tests.SignalTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal" type="DjangoTestsConfigurationType" temporary="true">
       <module name="HikingTrails" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +186,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
+      <option name="TARGET" value="HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -236,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: HikingTrails.Hikers.test_utils.UtilsTests" />
+        <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.SignalTests" />
+        <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal" />
         <item itemvalue="Python tests.Python tests for test_settings.TestGetEnv.test_environment_variables" />
         <item itemvalue="Python tests.Python tests for test_settings.TestGetEnv" />
-        <item itemvalue="Django tests.Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation" />
-        <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation" />
-        <item itemvalue="Django tests.Test: " />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +319,8 @@
       <workItem from="1733809204239" duration="3409000" />
       <workItem from="1733812944529" duration="498000" />
       <workItem from="1733813457102" duration="1261000" />
-      <workItem from="1733816476439" duration="2634000" />
+      <workItem from="1733816476439" duration="4489000" />
+      <workItem from="1733824701910" duration="14068000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -633,12 +650,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="allowed hosts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Trails_tests_TrailModelTest_test_trail_string_representation.coverage" NAME="Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation Coverage Results" MODIFIED="1733811716530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$signals.coverage" NAME="signals Coverage Results" MODIFIED="1733837449866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails/Hikers" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1733410878276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerModelTest_test_hiker_creation.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation Coverage Results" MODIFIED="1733810956088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_test_utils_UtilsTests.coverage" NAME="Test: HikingTrails.Hikers.test_utils.UtilsTests Coverage Results" MODIFIED="1733838739236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerDetailViewTest.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerDetailViewTest Coverage Results" MODIFIED="1733410776703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests_test_create_user_profile_signal.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal Coverage Results" MODIFIED="1733837254970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests Coverage Results" MODIFIED="1733838144231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$.coverage" NAME=" Coverage Results" MODIFIED="1733817744726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests.coverage" NAME="Test: HikingTrails.Hikers.tests Coverage Results" MODIFIED="1733810932370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Trails_tests_TrailModelTest_test_trail_string_representation.coverage" NAME="Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation Coverage Results" MODIFIED="1733811716530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerModelTest_test_hiker_creation.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation Coverage Results" MODIFIED="1733810956088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$apps.coverage" NAME="apps Coverage Results" MODIFIED="1733837443633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails/Hikers" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerRegViewTest.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerRegViewTest Coverage Results" MODIFIED="1733410216817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$settings.coverage" NAME="settings Coverage Results" MODIFIED="1733818386882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
   </component>
