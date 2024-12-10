@@ -8,15 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="allowed hosts">
-      <change afterPath="$PROJECT_DIR$/HikingTrails/test_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.Hikers.tests.HikerDeleteViewTest-20241210092827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.Hikers.tests.HikerModelTest-20241210092827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.Hikers.tests.HikerRegFormTest-20241210092827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.RecommendationsBook.tests.BookRecommendationFormTest-20241210092827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.RecommendationsBook.tests.RecommendationsBookTest-20241210092827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-HikingTrails.Trails.tests.TrailModelTest-20241210092827.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +303,7 @@
       <workItem from="1733809204239" duration="3409000" />
       <workItem from="1733812944529" duration="498000" />
       <workItem from="1733813457102" duration="1261000" />
-      <workItem from="1733816476439" duration="1927000" />
+      <workItem from="1733816476439" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
