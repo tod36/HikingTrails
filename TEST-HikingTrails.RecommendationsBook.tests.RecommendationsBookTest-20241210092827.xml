@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HikingTrails.RecommendationsBook.tests.RecommendationsBookTest-20241210092827" tests="1" file="HikingTrails/RecommendationsBook/tests.py" time="0.358" timestamp="2024-12-10T09:28:30" failures="0" errors="0" skipped="0">
+	<testcase classname="HikingTrails.RecommendationsBook.tests.RecommendationsBookTest" name="test_model_creation" time="0.358" timestamp="2024-12-10T09:28:30" file="HikingTrails\RecommendationsBook\tests.py" line="15"/>
+</testsuite>

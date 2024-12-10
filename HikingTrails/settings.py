@@ -13,8 +13,7 @@ import os
 from pathlib import Path
 
 from decouple import config
-
-import HikingTrails
+from django.template.defaultfilters import default
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -35,7 +34,6 @@ CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', config('CSRF_TRUSTED_OR
 
 INSTALLED_APPS = [
     'grappelli',
-    # 'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,8 +44,8 @@ INSTALLED_APPS = [
     'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig',
     'HikingTrails.Trails.apps.TrailsConfig',
     'crispy_forms',
-
 ]
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
