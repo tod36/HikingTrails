@@ -8,7 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="is_authenticated" />
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="is_authenticated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/authenticating_users.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/authenticating_users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,6 +321,7 @@
       <workItem from="1733816476439" duration="4489000" />
       <workItem from="1733824701910" duration="18862000" />
       <workItem from="1733895952123" duration="11071000" />
+      <workItem from="1733932844163" duration="8254000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -583,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733932397474</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="is_authenticated">
+      <option name="closed" value="true" />
+      <created>1733932885049</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932885049</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

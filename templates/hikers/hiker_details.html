@@ -1,22 +1,20 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>{{ user.username }}'s Details</h1>
-    <p>Email: {{ user.email }}</p>
-    <p>Age: {{ user.age }}</p>
-    <p>Phone: {{ user.phone }}</p>
-    <p>Address: {{ user.address }}</p>
-    {% if user.hiker_image %}
-        {#        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" class="small-profile-image">#}
-
-        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" style="width: 80px; height: auto;">
+    <h1>{{ hiker.username }} ({{ hiker.pk }})'s Details</h1>
+    <p>Email: {{ hiker.email }}</p>
+    <p>Age: {{ hiker.age }}</p>
+    <p>Phone: {{ hiker.phone }}</p>
+    <p>Address: {{ hiker.address }}</p>
+    {% if hiker.hiker_image %}
+        <img src="{{ hiker.hiker_image.url }}" alt="{{ hiker.username }}" style="width: 80px; height: auto;">
     {% else %}
         <p>No image uploaded.</p>
     {% endif %}
-    {% if user.is_approved %}
-        <p>You, {{ user }} are approved to perform certain operations!</p>
+    {% if hiker.is_approved %}
+        <p>You, {{ hiker }} are approved to perform certain operations!</p>
     {% else %}
-        <p>You, {{ user }} are not approved to perform certain operations!</p>
+        <p>You, {{ hiker }} are not approved to perform certain operations!</p>
     {% endif %}
-    <a href="{% url 'hiker_update' user.pk %}" class="button btn-lg btn-primary">Update</a>
-    <a href="{% url 'hiker_delete' user.pk %}" class="button btn-lg btn-primary">Delete {{ user }}</a>
+    <a href="{% url 'hiker_update' hiker.pk %}" class="button btn-lg btn-primary">Update</a>
+    <a href="{% url 'hiker_delete' hiker.pk %}" class="button btn-lg btn-primary">Delete {{ user }}</a>
 {% endblock %}

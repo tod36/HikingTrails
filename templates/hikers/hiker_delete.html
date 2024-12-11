@@ -2,7 +2,7 @@
 {% block content %}
     {% if user.is_staff %}
         <h1>Are you sure you want to delete {{ hiker.username }}?</h1>
-        <form action="{% url 'hiker_delete' user.pk %}" method="post">
+        <form action="{% url 'hiker_delete' hiker.pk %}" method="post">
             {% csrf_token %}
             <button type="submit" class="button btn-lg btn-danger center-button">Confirm Delete</button>
         </form>

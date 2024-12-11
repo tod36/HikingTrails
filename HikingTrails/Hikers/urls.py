@@ -10,7 +10,7 @@ urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(next_page='home'), name='logout'),
 
-    path('approved_users/', approved_hikers, name='approved_hikers'),
+    path('approved_hikers/', approved_hikers, name='approved_hikers'),
 
     path('authenticating_users/', authenticating_users, name='authenticating_users'),
 

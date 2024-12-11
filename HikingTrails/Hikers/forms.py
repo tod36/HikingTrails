@@ -14,10 +14,6 @@ class HikerRegForm(UserCreationForm):
         }
 
 
-from django import forms
-from HikingTrails.Hikers.models import Hiker
-
-
 class HikerDetailForm(forms.ModelForm):
     class Meta:
         model = Hiker

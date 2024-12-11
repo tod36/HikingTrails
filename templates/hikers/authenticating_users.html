@@ -4,10 +4,15 @@
     <h1>Authenticating Hikers</h1>
     <ul>
         {% if authenticating_users %}
-            {% for user in authenticating_users %}
-                <li>{{ user.username }}</li>
-                <li>{{ user.email }}</li>
-                <a href="{% url 'hiker_details' user.pk %}" class="btn btn-primary">View Profile</a>
+            {% for hiker in authenticating_users %}
+                <form method="post" action="{% url 'hiker_update' hiker.pk %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="user_id" value="{{ hiker.pk }}">
+                    <li>{{ hiker.username }}</li>
+                    <li>{{ hiker.email }}</li>
+                    <a href="{% url 'hiker_details' hiker.pk %}" class="btn btn-primary">View Profile</a>
+                    <button type="submit" class="btn btn-secondary">Update</button>
+                </form>
             {% endfor %}
         {% else %}
             <li>No approved hikers</li>

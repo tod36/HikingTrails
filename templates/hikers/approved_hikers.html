@@ -4,9 +4,9 @@
     <h1>Approved Hikers</h1>
     <ul>
         {% if approved_hikers %}
-            {% for user in approved_hikers %}
-                <li>{{ user.username }}</li>
-                <a href="{% url 'hiker_details' user.pk %}" class="btn btn-primary">View Profile</a>
+            {% for hiker in approved_hikers %}
+                <li>{{ hiker.username }}</li>
+                <a href="{% url 'hiker_details' hiker.pk %}" class="btn btn-primary">View Profile</a>
             {% endfor %}
         {% else %}
             <li>No approved hikers</li>

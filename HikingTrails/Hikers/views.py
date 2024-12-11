@@ -28,20 +28,20 @@ class HikerRegView(View):
 
 class HikerDetailView(View):
     form_class = HikerDetailForm
-    initial = {'key': 'value'}
     template_name = 'hikers/hiker_details.html'
 
     def get(self, request, *args, **kwargs):
-        form = self.form_class(initial=self.initial)
-        return render(request, self.template_name, {'form': self.form_class()})
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        form = self.form_class(instance=hiker)
+        return render(request, self.template_name, {'form': form, 'hiker': hiker})
 
     def post(self, request, *args, **kwargs):
-        form = self.form_class(request.POST)
+        hiker = Hiker.objects.get(pk=kwargs['pk'])
+        form = self.form_class(request.POST, request.FILES, instance=hiker)
         if form.is_valid():
-            user = form.save()
-            login(request, user)
+            form.save()
             return redirect('home_with_nav')
-        return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form, 'hiker': hiker})
 
 
 class HikerUpdateView(View):
@@ -51,15 +51,15 @@ class HikerUpdateView(View):
     def get(self, request, *args, **kwargs):
         hiker = Hiker.objects.get(pk=kwargs['pk'])
         form = self.form_class(instance=hiker)
-        return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form, 'hiker': hiker})
 
     def post(self, request, *args, **kwargs):
         hiker = Hiker.objects.get(pk=kwargs['pk'])
         form = self.form_class(request.POST, request.FILES, instance=hiker)
         if form.is_valid():
             form.save()
-            return redirect('home_with_nav')
-        return render(request, self.template_name, {'form': form})
+            return redirect('authenticating_users')
+        return render(request, self.template_name, {'form': form, 'hiker': hiker})
 
 
 class HikerDeleteView(View):
@@ -86,6 +86,7 @@ def home_with_nav(request):
 def approved_hikers(request):
     approved_hikers_list = Hiker.objects.filter(is_approved=True)
     return render(request, 'hikers/approved_hikers.html', {'approved_hikers': approved_hikers_list})
+
 
 def authenticating_users(request):
     authenticating_users_list = Hiker.objects.filter(is_active=True)
