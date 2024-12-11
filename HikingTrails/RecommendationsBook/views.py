@@ -1,7 +1,9 @@
 from django.http import HttpResponseForbidden
 from django.shortcuts import render, redirect, get_object_or_404
+
 from .forms import BookRecommendationForm
 from .models import BookRecommendation
+
 
 def book_recommendation_view(request):
     if request.method == 'POST':
@@ -13,6 +15,7 @@ def book_recommendation_view(request):
         form = BookRecommendationForm()
     return render(request, 'recommendations_book/book_recommendation.html', {'form': form})
 
+
 def like_recommendation_view(request, pk):
     recommendation = BookRecommendation.objects.get(pk=pk)
     recommendation.likes += 1
@@ -23,6 +26,7 @@ def like_recommendation_view(request, pk):
 def recommendation_list_view(request):
     recommendations = BookRecommendation.objects.all().order_by('-likes')
     return render(request, 'recommendations_book/recommendations_list.html', {'recommendations': recommendations})
+
 
 def delete_recommendation_view(request, pk):
     recommendation = get_object_or_404(BookRecommendation, pk=pk)

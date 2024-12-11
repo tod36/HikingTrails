@@ -6,6 +6,10 @@
     <form action="{% url 'hiker_update' pk=user.id %}" method="post" enctype="multipart/form-data">
         {{ form.as_p }}
         {% csrf_token %}
-        <button type="submit" class="center-button">Submit</button>
+        {% if user.is_authenticated %}
+            <button type="submit" class="center-button">Submit</button>
+        {% else %}
+            <p>You must be logged in to update a hiker!</p>
+        {% endif %}
     </form>
 {% endblock %}

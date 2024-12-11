@@ -1,5 +1,7 @@
 from django.db import models
+
 from HikingTrails.Hikers.models import Hiker
+
 
 class BookRecommendation(models.Model):
     hiker = models.ForeignKey(Hiker, on_delete=models.CASCADE)

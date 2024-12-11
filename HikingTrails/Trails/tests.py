@@ -1,7 +1,8 @@
 from django.test import TestCase
-from .models import Trails
+
 from HikingTrails.Hikers.models import Hiker
-from django.contrib.auth.models import User
+from .models import Trails
+
 
 class TrailModelTest(TestCase):
     def setUp(self):

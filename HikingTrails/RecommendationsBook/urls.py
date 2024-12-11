@@ -1,4 +1,5 @@
 from django.urls import path
+
 from .views import book_recommendation_view, like_recommendation_view, recommendation_list_view, \
     delete_recommendation_view
 

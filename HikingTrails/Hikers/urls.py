@@ -2,8 +2,8 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.urls import path
 
 from HikingTrails.Hikers import views
-from HikingTrails.Hikers.views import approved_hikers, HikerUpdateView, HikerDeleteView
 from HikingTrails.Hikers.views import HikerRegView, HikerDetailView
+from HikingTrails.Hikers.views import approved_hikers, HikerUpdateView, HikerDeleteView
 
 urlpatterns = [
     path('register/', HikerRegView.as_view(), name='register'),

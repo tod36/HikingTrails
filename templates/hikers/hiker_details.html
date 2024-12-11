@@ -6,7 +6,7 @@
     <p>Phone: {{ user.phone }}</p>
     <p>Address: {{ user.address }}</p>
     {% if user.hiker_image %}
-{#        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" class="small-profile-image">#}
+        {#        <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" class="small-profile-image">#}
 
         <img src="{{ user.hiker_image.url }}" alt="{{ user.username }}" style="width: 80px; height: auto;">
     {% else %}

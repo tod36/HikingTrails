@@ -1,5 +1,7 @@
 from django.core.management.base import BaseCommand
+
 from HikingTrails.Hikers.models import Hiker
+
 
 class Command(BaseCommand):
     help = 'Fill Hiker table with is_approved users'

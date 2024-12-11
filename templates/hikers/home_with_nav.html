@@ -11,7 +11,7 @@
             <a href="{% url 'trail_create' %}">Create Trail</a>
             <a href="{% url 'trail_list' %}">List Trails</a>
             <a href="{% url 'approved_hikers' %}">List Approved Hikers</a>
-{#            <a href="{% url 'unapproved_hikers' %}">List Unapproved Hikers</a>   TODO: is it appropriate#} 
+            {#            <a href="{% url 'unapproved_hikers' %}">List Unapproved Hikers</a>   TODO: is it appropriate#}
             <a>The "{{ user }}" is authenticated!</a>
             <form method="post" action="{% url 'logout' %}">
                 {% csrf_token %}

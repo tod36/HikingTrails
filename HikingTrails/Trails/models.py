@@ -24,8 +24,6 @@ class Trails(models.Model):
     hiker = models.ForeignKey(Hiker, on_delete=models.CASCADE, related_name='trails')
     created_at = models.DateTimeField(auto_now_add=True)
 
-    # Add other fields as necessary
-
     def __str__(self):
         return self.name
 

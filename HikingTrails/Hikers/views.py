@@ -7,24 +7,6 @@ from HikingTrails.Hikers.models import Hiker
 from HikingTrails.Hikers.utils import send_welcome_email
 
 
-# class HikerRegView(View):
-#     form_class = HikerRegForm
-#     initial = {'key': 'value'}
-#     template_name = 'registration/register.html'
-#
-#     def get(self, request, *args, **kwargs):
-#         form = self.form_class(initial=self.initial)
-#         return render(request, self.template_name, {'form': self.form_class()})
-#
-#     def post(self, request, *args, **kwargs):
-#         form = self.form_class(request.POST)
-#         if form.is_valid():
-#             user = form.save()
-#             login(request, user)
-#             return redirect('home_with_nav')
-#         return render(request, self.template_name, {'form': form})
-
-
 class HikerRegView(View):
     form_class = HikerRegForm
     initial = {'key': 'value'}
@@ -44,24 +26,6 @@ class HikerRegView(View):
         return render(request, self.template_name, {'form': form})
 
 
-# class HikerDetailView(View):
-#     form_class = HikerRegForm
-#     initial = {'key': 'value'}
-#     template_name = 'hikers/hiker_details.html'
-#
-#     def get(self, request, *args, **kwargs):
-#         form = self.form_class(initial=self.initial)
-#         return render(request, self.template_name, {'form': self.form_class()})
-#
-#     def post(self, request, *args, **kwargs):
-#         form = self.form_class(request.POST)
-#         if form.is_valid():
-#             user = form.save()
-#             login(request, user)
-#             return redirect('home_with_nav')
-#         return render(request, self.template_name, {'form': form})
-
-
 class HikerDetailView(View):
     form_class = HikerDetailForm
     initial = {'key': 'value'}
@@ -78,25 +42,6 @@ class HikerDetailView(View):
             login(request, user)
             return redirect('home_with_nav')
         return render(request, self.template_name, {'form': form})
-
-
-# class HikerUpdateView(View):
-#     form_class = HikerDetailForm
-#     exclude = ['username', 'email']
-#     template_name = 'hikers/hiker_update.html'
-#
-#     def get(self, request, *args, **kwargs):
-#         hiker = Hiker.objects.get(pk=kwargs['pk'])
-#         form = self.form_class(instance=hiker)
-#         return render(request, self.template_name, {'form': form})
-#
-#     def post(self, request, *args, **kwargs):
-#         hiker = Hiker.objects.get(pk=kwargs['pk'])
-#         form = self.form_class(request.POST, request.FILES, instance=hiker)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('home_with_nav')
-#         return render(request, self.template_name, {'form': form})
 
 
 class HikerUpdateView(View):

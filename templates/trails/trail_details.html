@@ -4,7 +4,7 @@
     <p>Location: {{ trail.location }}</p>
     <p>Difficulty: {{ trail.get_difficulty_display }}</p>
     <p>Description: {{ trail.description }}</p>
-    <p>Length: {{ trail.length }} km</p>
+    <p>Length: {{ trail.length }} m</p>
     <p>Elevation Gain: {{ trail.elevation_gain }} m</p>
     {% if trail.image %}
         <img src="{{ trail.image.url }}" alt="{{ trail.name }}" style="width: 300px; height: auto;">
@@ -60,14 +60,14 @@
 
     <h2>Upload Photo</h2>
     <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6">
-            <form method="post" enctype="multipart/form-data">
-                {% csrf_token %}
-                {{ photo_form.as_p }}
-                <button type="submit" name="photo" class="btn btn-primary center-button">Upload</button>
-            </form>
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ photo_form.as_p }}
+                    <button type="submit" name="photo" class="btn btn-primary center-button">Upload</button>
+                </form>
+            </div>
         </div>
-    </div>
     </div>
 {% endblock %}

@@ -1,11 +1,13 @@
+from django.contrib.auth import get_user_model
 from django.core import mail
-from HikingTrails.Hikers.forms import HikerRegForm
 from django.test import TestCase
 from django.urls import reverse
-from django.contrib.auth import get_user_model
+
+from HikingTrails.Hikers.forms import HikerRegForm
 from HikingTrails.Hikers.models import Hiker
 
 UserModel = get_user_model()
+
 
 class HikerModelTest(TestCase):
     def setUp(self):
@@ -71,15 +73,13 @@ class HikerDeleteViewTest(TestCase):
         response = self.client.post(reverse('hiker_delete', args=[self.hiker.id]))
         self.assertEqual(response.status_code, 302)
 
+
 class SignalTests(TestCase):
     def test_create_user_profile_signal(self):
-        # Create a new user
         user = UserModel.objects.create_user(username='testuser', email='testuser@example.com', password='testpass123')
 
-        # Check if the Hiker profile is created
         self.assertTrue(Hiker.objects.filter(username=user).exists())
 
-        # Check if an email was sent
         self.assertEqual(len(mail.outbox), 1)
         self.assertEqual(mail.outbox[0].subject, 'Welcome to HikingTrails!')
         self.assertEqual(mail.outbox[0].to, [user.email])

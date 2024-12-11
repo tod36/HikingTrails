@@ -1,5 +1,7 @@
 from django import forms
+
 from .models import BookRecommendation
+
 
 class BookRecommendationForm(forms.ModelForm):
     class Meta:
