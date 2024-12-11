@@ -10,7 +10,14 @@
             {#            <a href="{% url 'hiker_details' user.pk %}">Hiker Details</a>#}
             <a href="{% url 'trail_create' %}">Create Trail</a>
             <a href="{% url 'trail_list' %}">List Trails</a>
+            {% for user in users %}
+                
+                <a href="{% url 'hiker_details' user.pk %}">Hiker Details</a>
+            	
+            {% endfor %}
+            
             <a href="{% url 'approved_hikers' %}">List Approved Hikers</a>
+            <a href="{% url 'authenticating_users' %}">List Authenticating Hikers</a>
             {#            <a href="{% url 'unapproved_hikers' %}">List Unapproved Hikers</a>   TODO: is it appropriate#}
             <a>The "{{ user }}" is authenticated!</a>
             <form method="post" action="{% url 'logout' %}">

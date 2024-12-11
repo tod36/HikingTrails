@@ -86,3 +86,7 @@ def home_with_nav(request):
 def approved_hikers(request):
     approved_hikers_list = Hiker.objects.filter(is_approved=True)
     return render(request, 'hikers/approved_hikers.html', {'approved_hikers': approved_hikers_list})
+
+def authenticating_users(request):
+    authenticating_users_list = Hiker.objects.filter(is_active=True)
+    return render(request, 'hikers/authenticating_users.html', {'authenticating_users': authenticating_users_list})

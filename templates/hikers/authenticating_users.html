@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Authenticating Hikers</h1>
+    <ul>
+        {% if authenticating_users %}
+            {% for user in authenticating_users %}
+                <li>{{ user.username }}</li>
+                <li>{{ user.email }}</li>
+                <a href="{% url 'hiker_details' user.pk %}" class="btn btn-primary">View Profile</a>
+            {% endfor %}
+        {% else %}
+            <li>No approved hikers</li>
+        {% endif %}
+    </ul>
+{% endblock %}

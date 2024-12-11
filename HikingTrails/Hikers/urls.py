@@ -2,7 +2,7 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.urls import path
 
 from HikingTrails.Hikers import views
-from HikingTrails.Hikers.views import HikerRegView, HikerDetailView
+from HikingTrails.Hikers.views import HikerRegView, HikerDetailView, authenticating_users
 from HikingTrails.Hikers.views import approved_hikers, HikerUpdateView, HikerDeleteView
 
 urlpatterns = [
@@ -11,6 +11,8 @@ urlpatterns = [
     path('logout/', LogoutView.as_view(next_page='home'), name='logout'),
 
     path('approved_users/', approved_hikers, name='approved_hikers'),
+
+    path('authenticating_users/', authenticating_users, name='authenticating_users'),
 
     path('hiker/<int:pk>/', HikerDetailView.as_view(), name='hiker_details'),
 
