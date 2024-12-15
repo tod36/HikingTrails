@@ -19,4 +19,4 @@ class TrailPhotosForm(forms.ModelForm):
 class TrailForm(forms.ModelForm):
     class Meta:
         model = Trails
-        fields = '__all__'
+        exclude = ['hiker']

@@ -12,10 +12,14 @@
         <p>No image available for this trail.</p>
     {% endif %}
     <a href="{% url 'trail_list' %}" class="button btn-lg btn-primary">Back to trails list</a>
-    <a href="{% url 'trail_edit' trail.pk %}" class="button btn-lg btn-primary">Edit trail</a>
-    <a href="{% url 'comment_trail' trail.pk %}" class="button btn-lg btn-primary">Comment trail</a>
-    <a href="{% url 'trail_delete' trail.pk %}" class="button btn-lg btn-primary">Delete</a>
+    {% if user.is_authenticated %}
+        <a href="{% url 'trail_edit' trail.pk %}" class="button btn-lg btn-primary">Edit trail</a>
+        <a href="{% url 'comment_trail' trail.pk %}" class="button btn-lg btn-primary">Comment trail</a>
+        <a href="{% url 'trail_delete' trail.pk %}" class="button btn-lg btn-primary">Delete</a>
 
+    {% else %}
+        <p>You must be logged!</p>
+    {% endif %}
     <h2>Comments</h2>
     <div class="comment-section">
         {% for comment in page_obj %}

@@ -13,6 +13,8 @@ urlpatterns = [
 
     path('<int:pk>/delete/', TrailDeleteView.as_view(), name='trail_delete'),
 
+    # path('<int:pk>/trails_confirm_delete/', TrailEditView.as_view(), name='trails_confirm_delete'),
+
     path('<int:pk>/edit/', TrailEditView.as_view(), name='trail_edit'),
 
     path('<int:pk>/comment/', CommentCreateView.as_view(), name='comment_trail'),

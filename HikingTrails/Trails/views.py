@@ -14,8 +14,12 @@ from ..Hikers.models import Hiker
 class TrailsCreateView(CreateView):
     model = Trails
     template_name = 'trails/trail_create.html'
-    fields = ['name', 'length', 'image', 'difficulty', 'description', 'elevation_gain', 'hiker']
+    fields = ['name', 'length', 'image', 'difficulty', 'description', 'elevation_gain']
     success_url = reverse_lazy('trail_list')
+
+    def form_valid(self, form):
+        form.instance.hiker = self.request.user
+        return super().form_valid(form)
 
 
 class TrailsListView(ListView):
@@ -60,6 +64,7 @@ class TrailsDetailView(DetailView):
 
 class TrailDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Trails
+    template_name = 'trails/trail_confirm_delete.html'
     success_url = reverse_lazy('trail_list')  # Replace with your trail list view name
 
     def test_func(self):
@@ -73,6 +78,7 @@ class TrailEditView(UpdateView):
     template_name = 'trails/trail_edit.html'
 
     def form_valid(self, form):
+        form.instance.hiker = self.request.user
         trail = form.save(commit=False)
         trail.save()
         return redirect('trail_details', pk=trail.pk)

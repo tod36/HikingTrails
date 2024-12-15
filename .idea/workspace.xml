@@ -8,17 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="is_authenticated">
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="the last in line RIP Dio">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/approved_hikers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/authenticating_users.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/authenticating_users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/hiker_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/hiker_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hikers/home_with_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/trails/trail_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -96,7 +97,7 @@
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/HikingTrails&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/Django Basic/Furry Funnies App_Author's Solution/ExamProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -321,7 +322,14 @@
       <workItem from="1733816476439" duration="4489000" />
       <workItem from="1733824701910" duration="18862000" />
       <workItem from="1733895952123" duration="11071000" />
-      <workItem from="1733932844163" duration="8254000" />
+      <workItem from="1733932844163" duration="8545000" />
+      <workItem from="1733947804773" duration="1691000" />
+      <workItem from="1733984505821" duration="192000" />
+      <workItem from="1734027971376" duration="1767000" />
+      <workItem from="1734108513341" duration="386000" />
+      <workItem from="1734165714565" duration="2808000" />
+      <workItem from="1734182035762" duration="6985000" />
+      <workItem from="1734237419836" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -603,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733932885049</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="the last in line RIP Dio">
+      <option name="closed" value="true" />
+      <created>1733945673850</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733945673850</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,16 +669,17 @@
     <MESSAGE value="mail sender" />
     <MESSAGE value="before exam" />
     <MESSAGE value="is_authenticated" />
-    <option name="LAST_COMMIT_MESSAGE" value="is_authenticated" />
+    <MESSAGE value="the last in line RIP Dio" />
+    <option name="LAST_COMMIT_MESSAGE" value="the last in line RIP Dio" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$signals.coverage" NAME="signals Coverage Results" MODIFIED="1733837449866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails/Hikers" />
-    <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1733410878276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_test_utils_UtilsTests.coverage" NAME="Test: HikingTrails.Hikers.test_utils.UtilsTests Coverage Results" MODIFIED="1733838739236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1734242295015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_test_utils_UtilsTests.coverage" NAME="Test: HikingTrails.Hikers.test_utils.UtilsTests Coverage Results" MODIFIED="1733948094328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerDetailViewTest.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerDetailViewTest Coverage Results" MODIFIED="1733410776703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests_test_create_user_profile_signal.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal Coverage Results" MODIFIED="1733837254970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests Coverage Results" MODIFIED="1733838144231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HikingTrails$.coverage" NAME=" Coverage Results" MODIFIED="1733925726838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
+    <SUITE FILE_PATH="coverage/HikingTrails$.coverage" NAME=" Coverage Results" MODIFIED="1734186752032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests.coverage" NAME="Test: HikingTrails.Hikers.tests Coverage Results" MODIFIED="1733810932370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Trails_tests_TrailModelTest_test_trail_string_representation.coverage" NAME="Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation Coverage Results" MODIFIED="1733811716530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerModelTest_test_hiker_creation.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation Coverage Results" MODIFIED="1733810956088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
