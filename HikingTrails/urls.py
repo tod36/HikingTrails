@@ -23,7 +23,7 @@ from HikingTrails.Trails.views import custom_permission_denied_view
 
 handler403 = custom_permission_denied_view
 urlpatterns = [
-    path('grappelli/', include('grappelli.urls')),
+    # path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
     path('', include('HikingTrails.Hikers.urls')),
     path('trails/', include('HikingTrails.Trails.urls')),
