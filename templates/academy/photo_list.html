@@ -3,21 +3,66 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    <title>Meeting Photos</title>
+    <title>Annual meetings of the 2011 academy class</title>
     <a href="{% url 'upload_photo' %}" class="large-button">Upload photos</a>
+    <script>
+        function confirmDelete(event) {
+            if (!confirm("Are you sure you want to delete this photo?")) {
+                event.preventDefault();
+            }
+        }
+
+        function showFullScreen(src) {
+            const fullScreenContainer = document.getElementById('full-screen-container');
+            const fullScreenImage = document.getElementById('full-screen-image');
+            fullScreenImage.src = src;
+            fullScreenContainer.style.display = 'flex';
+        }
+
+        function hideFullScreen() {
+            const fullScreenContainer = document.getElementById('full-screen-container');
+            fullScreenContainer.style.display = 'none';
+        }
+    </script>
+    <style>
+        #full-screen-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #full-screen-image {
+            max-width: 90%;
+            max-height: 90%;
+        }
+    </style>
 </head>
 <body>
 <h1>Meeting Photos</h1>
 {% for year, photos in photos_by_year.items %}
-    <h2>{{ year }}</h2>
-    <ul>
+    <a class="year-heading">{{ year }}</a>
+    <div class="photo-grid">
         {% for photo in photos %}
-            <li>
-                <img src="{{ photo.image.url }}" alt="Photo from {{ photo.meeting }}" style="width: 600px; height: auto;">
+            <div class="photo-item">
+                <img src="{{ photo.image.url }}" alt="Photo from {{ photo.meeting }}" style="width: 300px; height: auto;" onclick="showFullScreen('{{ photo.image.url }}')">
                 <p>Uploaded by: {{ photo.uploaded_by.username }} on {{ photo.uploaded_at }}</p>
-            </li>
+                <form method="post" action="{% url 'delete_photo' photo.pk %}" onsubmit="confirmDelete(event)">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
         {% endfor %}
-    </ul>
+    </div>
 {% endfor %}
+<div id="full-screen-container" onclick="hideFullScreen()">
+    <img id="full-screen-image" src="" alt="Full screen photo">
+</div>
 </body>
 </html>
