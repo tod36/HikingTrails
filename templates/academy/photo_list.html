@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>Meeting Photos</title>
+    <a href="{% url 'upload_photo' %}" class="large-button">Upload photos</a>
+</head>
+<body>
+<h1>Meeting Photos</h1>
+{% for year, photos in photos_by_year.items %}
+    <h2>{{ year }}</h2>
+    <ul>
+        {% for photo in photos %}
+            <li>
+                <img src="{{ photo.image.url }}" alt="Photo from {{ photo.meeting }}" style="width: 600px; height: auto;">
+                <p>Uploaded by: {{ photo.uploaded_by.username }} on {{ photo.uploaded_at }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+</body>
+</html>

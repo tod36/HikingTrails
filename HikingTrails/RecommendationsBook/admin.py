@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from HikingTrails.RecommendationsBook.models import BookRecommendation
+
+admin.site.register(BookRecommendation)

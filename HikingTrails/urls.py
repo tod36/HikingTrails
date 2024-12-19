@@ -15,6 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf import settings
+from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
@@ -25,10 +26,18 @@ handler403 = custom_permission_denied_view
 urlpatterns = [
     # path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
+
+    # path('set_language/', set_language, name='set_language'),
     path('', include('HikingTrails.Hikers.urls')),
     path('trails/', include('HikingTrails.Trails.urls')),
     path('recommendations/', include('HikingTrails.RecommendationsBook.urls')),
 
+    path('academy/', include('HikingTrails.Academy.urls')),
+
 ]
 urlpatterns += static(settings.MEDIA_URL,
                       document_root=settings.MEDIA_ROOT)
+
+urlpatterns += i18n_patterns(
+    path('set_language/', include('django.conf.urls.i18n')),
+)

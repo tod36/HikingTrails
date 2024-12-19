@@ -1,12 +1,13 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.paginator import Paginator
 from django.http import HttpResponseForbidden
-from django.shortcuts import render, redirect
-from django.urls import reverse_lazy
+from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse_lazy, reverse
 from django.views.generic import ListView, DetailView, CreateView, DeleteView, UpdateView
 
 from .forms import CommentForm, TrailPhotosForm, TrailForm
-from .models import Comment
+from .models import Comment, TrailPhotos
 from .models import Trails
 from ..Hikers.models import Hiker
 
@@ -104,3 +105,11 @@ class CommentCreateView(LoginRequiredMixin, CreateView):
 
 def custom_permission_denied_view(request, exception):
     return render(request, '403.html', status=403)
+
+
+@login_required
+def delete_photo(request, photo_id):
+    photo = get_object_or_404(TrailPhotos, id=photo_id)
+    if photo.trail.hiker == request.user:
+        photo.delete()
+    return redirect(reverse('trail_details', args=[photo.trail.id]))

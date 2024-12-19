@@ -264,3 +264,7 @@ button img {
     color: #777;
     font-size: 0.9em;
 }
+.language-form {
+    float: right;
+    margin-right: 20px; /* Adjust as needed */
+}

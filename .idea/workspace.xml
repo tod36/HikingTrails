@@ -8,11 +8,520 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="without grappelli">
+    <list default="true" id="74d84b0e-78ba-4b88-a15d-9c8e7e0abdee" name="Changes" comment="Before Language button">
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/migrations/0002_photoacademy_delete_photo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/migrations/0003_commentmeeting_meetingphotos_delete_photoacademy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/migrations/0004_meetingphotos_uploaded_at_meetingphotos_uploaded_by_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HikingTrails/Academy/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/academy/meeting_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/academy/photo_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/academy/upload_photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c39438b-ddae-424b-85da-792d2a32ea72/storage_v2/_src_/database/hikingtrailsuserprob.5VkV7A/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/160_0107.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/IMG-20190421-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/IMG_20180517_104549.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/add-another.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/add-another_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/add-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/add-link-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/alert.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/arrow-down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/arrow-up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/autocomplete-multiple-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/autocomplete-single-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/back-link-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/back-link-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/back-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/back-link_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/bilo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/blockquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/bold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/breadcrumbs-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/breadcrumbs-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/breadcrumbs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/breadcrumbs_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/bullist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button_bg_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button_bg_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/button_pagebreak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/buttons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/change-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/change-link-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/changelist-results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/charmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/cleanup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/colorpicker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/confirm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/corners.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/date-hierarchy-back-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/date-hierarchy-back-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/date-hierarchy-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/date-hierarchy-back_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/datepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/datepicker_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/datetime-now.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/datetime-now_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/delete-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/example.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/filter-choice-selected-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/flash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/form-select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/home1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/horizontal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icon-fb_show-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icon-fb_show.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icon-mceOpen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icon-mceResize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/icons1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/iframe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/image-0-02-05-48b965f3a3e7f7e20d45db527a822e0cd9b15515067858d5e473c43e7f858fdd-V.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/image-0-02-05-e043d9eecd70f10990abf589066a72a4813524e3c9b5cbeebdd19c17c17f53fa-V.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/italic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/items.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/justifycenter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/justifyfull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/justifyleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/justifyright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-external-rtl-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-external-rtl-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-external-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-external-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-rtl-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-rtl-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link-internal-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/loading-small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/logo_over.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/lykatu6ene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/media.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/menu_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/menu_check.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/messagelist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/moxieplayer.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/moxieplayer1.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/nav-grabber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/numlist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/object-tools-add-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/object-tools-viewsite-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pagebreak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pasteword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/progress.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pulldown-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pulldown-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/pulldown-handler_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/quicktime.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/realmedia.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-lookup-m2m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-lookup-m2m_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-lookup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-lookup_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/related-remove_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.dcr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.flv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.rm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sample1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/save_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/searchbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-add-m2m-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-add-m2m-horizontal_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-add-m2m-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-add-m2m-vertical_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-remove-m2m-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-remove-m2m-horizontal_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-remove-m2m-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/selector-remove-m2m-vertical_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/shockwave.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/show_advanced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/show_advanced1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-cool.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-cry.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-embarassed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-foot-in-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-frown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-innocent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-kiss.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-laughing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-money-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-sealed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-surprised.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-tongue-out.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-undecided.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-wink.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/smiley-yell.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sort-remove-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sort-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sort-remove_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sorted-ascending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/sorted-descending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/spritesheet-1694777276.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/status-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/status-unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/status-yes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_cell_props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_col_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_col_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_delete_col.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_delete_row.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_merge_cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_row_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_row_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_row_props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/table_split_cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tabs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/th-ascending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/th-descending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/timepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/timepicker_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-add-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-add-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-arrow-down-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-arrow-down-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-arrow-up-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-arrow-up-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-close-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-close-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-delete-handler-predelete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-delete-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-delete-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-drag-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-drag-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-edit-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-edit-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-open-handler-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-open-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-add-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-add-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-add-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-edit-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-edit-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-edit-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-edit-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-related-remove-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-remove-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-remove-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-trash-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-trash-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-trash-list-toggle-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-trash-list-toggle-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-viewsite-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/tools-viewsite-link_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/top_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/trans.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-datepicker-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-datepicker-next_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-datepicker-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-datepicker-prev_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/ui-sortable-placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/underline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/unlink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/vertical.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/video.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/visualchars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/visualchars1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/vyjeta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/windowsmedia.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM_[Changes]/wline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_36_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/160_0107.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/IMG-20190421-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/IMG_20180517_104549.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-another.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-another_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/add-link-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/alert.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/arrow-down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/arrow-up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/autocomplete-multiple-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/autocomplete-single-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/back-link_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bilo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/blockquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/breadcrumbs_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/bullist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_bg_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/button_pagebreak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/buttons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/change-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/change-link-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/changelist-results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/charmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/cleanup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/colorpicker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/confirm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/corners.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/date-hierarchy-back_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datepicker_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datetime-now.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/datetime-now_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/delete-link-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/example.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/filter-choice-selected-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/flash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/form-select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/horizontal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-fb_show-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-fb_show.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-mceOpen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icon-mceResize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/iframe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image-0-02-05-48b965f3a3e7f7e20d45db527a822e0cd9b15515067858d5e473c43e7f858fdd-V.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image-0-02-05-e043d9eecd70f10990abf589066a72a4813524e3c9b5cbeebdd19c17c17f53fa-V.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/italic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/items.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifycenter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyfull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/justifyright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-rtl-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-rtl-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-external-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-rtl_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link-internal-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/loading-small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/logo_over.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/lykatu6ene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/media.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/menu_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/menu_check.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/messagelist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/moxieplayer.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/nav-grabber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/numlist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/object-tools-add-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/object-tools-viewsite-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pagebreak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pasteword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/progress.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/pulldown-handler_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/quicktime.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/realmedia.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup-m2m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup-m2m_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-lookup_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/related-remove_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.dcr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.flv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.rm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sample.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/save_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/searchbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-horizontal_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-add-m2m-vertical_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-horizontal_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/selector-remove-m2m-vertical_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/shockwave.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/show_advanced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-cool.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-cry.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-embarassed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-foot-in-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-frown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-innocent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-kiss.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-laughing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-money-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-sealed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-surprised.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-tongue-out.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-undecided.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-wink.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/smiley-yell.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sort-remove_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sorted-ascending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/sorted-descending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/spritesheet-1694777276.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/status-yes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_cell_props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_col_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_col_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_delete_col.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_delete_row.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_merge_cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_row_props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/table_split_cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tabs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/th-ascending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/th-descending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/timepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/timepicker_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-add-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-add-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-down-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-down-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-up-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-arrow-up-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-close-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-close-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler-predelete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-delete-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-drag-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-drag-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-edit-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-edit-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-open-handler-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-open-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-add-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-edit-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler-small_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-related-remove-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-remove-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-remove-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-list-toggle-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-trash-list-toggle-handler_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-viewsite-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/tools-viewsite-link_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/top_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/trans.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-next_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-datepicker-prev_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/ui-sortable-placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/underline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/unlink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/vertical.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/video.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/visualchars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/vyjeta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/windowsmedia.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM_[Changes]1/wline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2024_2_46_PM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Hikers/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Hikers/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/RecommendationsBook/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/RecommendationsBook/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HikingTrails/Trails/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/Trails/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/trails/trail_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/trails/trail_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/test_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/test_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HikingTrails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HikingTrails/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/csrf_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/csrf_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +590,7 @@
     &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_settings.TestGetEnv.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_settings.TestGetEnv.test_environment_variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_settings.test_send_mail.executor&quot;: &quot;Run&quot;,
     &quot;Python.apps.executor&quot;: &quot;Run&quot;,
     &quot;Python.settings.executor&quot;: &quot;Run&quot;,
     &quot;Python.signals.executor&quot;: &quot;Run&quot;,
@@ -90,14 +600,14 @@
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/Django Basic/Furry Funnies App_Author's Solution/ExamProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/tod36/SoftUni2024/Django Advanced/razni/Katuni6te 2016/IMG_20201025_101823.jpg&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -115,9 +625,9 @@
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\tod36\SoftUni2024\HikingTrails\HikingTrails" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\static" />
-      <recent name="E:\tod36\SoftUni2024\HikingTrails\HikingTrails" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\media\trail_images" />
       <recent name="E:\tod36\SoftUni2024\HikingTrails\media\trail_images" />
     </key>
@@ -227,7 +737,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_settings.TestGetEnv.test_environment_variables" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_settings.test_send_mail" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="HikingTrails" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,17 +749,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_settings.TestGetEnv.test_environment_variables&quot;" />
+      <option name="_new_target" value="&quot;test_settings.test_send_mail&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_settings.test_send_mail" />
+        <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.SignalTests" />
         <item itemvalue="Python tests.Python tests for test_settings.TestGetEnv" />
         <item itemvalue="Django tests.Test: HikingTrails.Hikers.test_utils.UtilsTests" />
-        <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.SignalTests" />
         <item itemvalue="Django tests.Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal" />
-        <item itemvalue="Python tests.Python tests for test_settings.TestGetEnv.test_environment_variables" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +834,15 @@
       <workItem from="1734182035762" duration="6985000" />
       <workItem from="1734237419836" duration="9431000" />
       <workItem from="1734255991675" duration="14000" />
-      <workItem from="1734261637336" duration="2767000" />
+      <workItem from="1734261637336" duration="4121000" />
+      <workItem from="1734266037003" duration="2420000" />
+      <workItem from="1734280995996" duration="3160000" />
+      <workItem from="1734375606041" duration="456000" />
+      <workItem from="1734413237481" duration="2767000" />
+      <workItem from="1734461443833" duration="3525000" />
+      <workItem from="1734529108765" duration="13443000" />
+      <workItem from="1734591829357" duration="15000" />
+      <workItem from="1734591854965" duration="3095000" />
     </task>
     <task id="LOCAL-00001" summary="Hikers Trails &amp; Comments tables">
       <option name="closed" value="true" />
@@ -630,7 +1148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734262151350</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Before Language button">
+      <option name="closed" value="true" />
+      <created>1734264713134</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1734264713134</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +1209,8 @@
     <MESSAGE value="the last in line RIP Dio" />
     <MESSAGE value="recommendations after the defense" />
     <MESSAGE value="without grappelli" />
-    <option name="LAST_COMMIT_MESSAGE" value="without grappelli" />
+    <MESSAGE value="Before Language button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before Language button" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HikingTrails$signals.coverage" NAME="signals Coverage Results" MODIFIED="1733837449866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails/Hikers" />
@@ -691,8 +1218,8 @@
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_test_utils_UtilsTests.coverage" NAME="Test: HikingTrails.Hikers.test_utils.UtilsTests Coverage Results" MODIFIED="1733948094328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerDetailViewTest.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerDetailViewTest Coverage Results" MODIFIED="1733410776703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests_test_create_user_profile_signal.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests.test_create_user_profile_signal Coverage Results" MODIFIED="1733837254970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests Coverage Results" MODIFIED="1733838144231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/HikingTrails$.coverage" NAME=" Coverage Results" MODIFIED="1734186752032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
+    <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_SignalTests.coverage" NAME="Test: HikingTrails.Hikers.tests.SignalTests Coverage Results" MODIFIED="1734291234167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/HikingTrails$.coverage" NAME=" Coverage Results" MODIFIED="1734415054897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HikingTrails" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests.coverage" NAME="Test: HikingTrails.Hikers.tests Coverage Results" MODIFIED="1733810932370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Trails_tests_TrailModelTest_test_trail_string_representation.coverage" NAME="Test: HikingTrails.Trails.tests.TrailModelTest.test_trail_string_representation Coverage Results" MODIFIED="1733811716530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HikingTrails$Test__HikingTrails_Hikers_tests_HikerModelTest_test_hiker_creation.coverage" NAME="Test: HikingTrails.Hikers.tests.HikerModelTest.test_hiker_creation Coverage Results" MODIFIED="1733810956088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

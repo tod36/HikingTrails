@@ -1,6 +1,9 @@
 {% load static %}
+{% load i18n %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% get_current_language as LANGUAGE_CODE %}{{ LANGUAGE_CODE }}">
+
 <head>
     <style>
         body {
@@ -40,6 +43,7 @@
 </head>
 <body>
 <header>
+
     {% if user.is_authenticated %}
         <div class="logo">
             <a href="{% url 'home_with_nav' %}">
@@ -53,6 +57,20 @@
             </a>
         </div>
     {% endif %}
+    <form action="{% url 'set_language' %}" method="post" class="language-form">
+        {% csrf_token %}
+        <input name="next" type="hidden" value="{{ request.path }}">
+        <select name="language">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% for lang in LANGUAGES %}
+                <option value="{{ lang.0 }}"{% if lang.0 == LANGUAGE_CODE %} selected{% endif %}>
+                    {{ lang.1 }}
+                </option>
+            {% endfor %}
+        </select>
+        <button type="submit">Change</button>
+    </form>
 </header>
 <main>
     {% block content %}
@@ -64,6 +82,7 @@
     <div class="container p-3">
         <section class="mb-4">
             <a href="{% url 'book_recommendation' %}" class="large-button">Book for recommendations</a>
+            <a href="{% url 'photo_list' %}" class="large-button">Academy</a>
             <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
                href="https://www.facebook.com/profile.php?id=1698716034" role="button"><i
                     class="fab fa-facebook-f"></i></a>
