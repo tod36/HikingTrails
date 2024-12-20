@@ -1,0 +1,30 @@
+@import "variables_meetings.css";
+@import "navigation_meetings.css";
+@import "form_meetings.css";
+@import "dashboard_meetings.css";
+@import "details_meetings.css";
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between photos as needed */
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.year-heading {
+    font-size: 40px;
+    color: #bf00ff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#action-buttons a:hover {
+  background-color: var(--button-hover);
+  font-weight: 700;
+  transform: scale(1.1);
+}

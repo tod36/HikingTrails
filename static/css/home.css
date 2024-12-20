@@ -307,3 +307,12 @@ button img {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+.big-row-heading {
+    font-size: 40px;
+    color: #ff5733; /* Change to your desired color */
+    background-color: #f0f0f0; /* Change to your desired background color */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
