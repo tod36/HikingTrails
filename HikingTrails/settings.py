@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'HikingTrails.RecommendationsBook.apps.RecommendationsbookConfig',
     'HikingTrails.Trails.apps.TrailsConfig',
     'crispy_forms',
-    'HikingTrails.Academy.apps.AcademyConfig'
+    'HikingTrails.Academy.apps.AcademyConfig',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
