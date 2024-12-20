@@ -28,3 +28,28 @@
   font-weight: 700;
   transform: scale(1.1);
 }
+.big-row-heading {
+    font-size: 40px;
+    color: #33ff74; /* Change to your desired color */
+    background-color: #b38000; /* Change to your desired background color */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

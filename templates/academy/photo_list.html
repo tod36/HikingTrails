@@ -50,10 +50,10 @@
 <body>
 <div id="action-buttons">
     <a href="{% url 'upload_photo' %}" class="">Upload photos</a>
+    <a href="{% url 'home' %}" class="">Back to Hiking Trails</a>
 </div>
 
-<h1 class="big-row-heading">Annual meetings of the 2011 academy class</h1>
-
+<h1 class="big-row-heading pulse">Annual meetings of the 2011 academy class</h1>
 {% for year, photos in photos_by_year.items %}
     <a class="year-heading">{{ year }}</a>
     <div class="photo-grid">
