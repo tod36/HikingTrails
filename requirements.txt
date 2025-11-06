@@ -2,7 +2,7 @@ asgiref==3.8.1
 colorama==0.4.6
 coverage==7.6.9
 crispy-bootstrap4==2024.10
-Django==5.1.4
+Django==5.1.14
 django-crispy-forms==2.3
 django-grappelli==4.0.1
 django-suit==2.0a2
